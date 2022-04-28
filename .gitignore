@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+renv
+preparing_ppt.R
+notes_in_the_process.qmd
+objects

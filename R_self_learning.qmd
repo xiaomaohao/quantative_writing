@@ -1,0 +1,53 @@
+---
+title: "R self-learn tutorial"
+---
+
+## R基础
+
+-   [An Introduction to R](https://intro2r.com/)
+
+-   [R for Data Science](https://r4ds.had.co.nz/)
+
+-   [Introduction to Data Science](https://rafalab.github.io/dsbook/)
+
+## 图形可视化
+
+-   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/) 系统介绍如何使用ggplot2做图
+
+-   [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+从美学的角度讲如何制作和设计图
+
+-   [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
+
+以具体问题出发手把手教如何做图
+
+## 写作工具
+
+使用rmarkdown做ppt，写文章，写书，做网站等
+
+-   [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+-   [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+-   [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
+
+-   [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+
+## 版本控制
+
+-   [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)
+
+## Learning statistics with R
+
+-   [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
+
+-   [Statistical Inference via Data Science](https://moderndive.com/)
+
+-   [Learning statistics with R](https://learningstatisticswithr.com/book/)
+
+## Online Courses
+
+-   [Statistics and R](https://online-learning.harvard.edu/course/statistics-and-r?delta=0)
+
+-   [Statistics with R Specialization](https://www.coursera.org/specializations/statistics#courses)

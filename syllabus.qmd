@@ -1,0 +1,80 @@
+---
+title: "量化论文写作指导"
+format:
+  html: 
+    code-fold: true
+---
+
+## 课程简介
+
+本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析等展开，以求课程结束，学生完成一篇论文的完整写作过程。
+
+## 课程目标
+
+1.  使学生掌握发现可研究的问题的方法。
+2.  使生掌握中外文文献检索方法与文献综述写作方法。
+3.  使学生掌握理论框架写作
+4.  使学生掌握研究设计部分的写作
+5.  熟悉量化论文结果呈现方法
+
+## 课程内容
+
+1.  研究问题选择
+
+-   研究问题域的选择
+-   具体研究题目的选择
+-   问题提出部分的写作
+
+2.  文献综述写作
+
+-   中文文献检索要求与方法
+-   外文文献检索要求与方法
+-   文献管理与阅读
+
+3.  理论框架的选择与架构
+
+-   研究理论的选择
+-   研究理论的构建
+
+4.  研究设计
+
+-   模型选择
+-   变量选择
+
+5.  研究结果呈现
+
+-   描述性结果
+-   统计分析结
+
+6、定量论文的阅读与写作
+
+-   定量论文的阅读
+-   定量论文的写作
+
+## 授课形式
+
+课程以课堂讨论为主，教师讲授为辅。
+
+## 考核方式
+
+1.  出勤：10%
+2.  课堂表现：30%
+3.  期末论文：40%
+
+## 课程材料
+
+Cunningham, S. (2021). [Causal inference: the mixtape](https://mixtape.scunning.com/index.html). Yale University Press.
+
+Angrist, J. D., & Keueger, A. B. (1991). Does Compulsory School Attendance Affect Schooling and Earnings? *The Quarterly Journal of Economics*, *106*(4), 979--1014. https://doi.org/10.2307/2937954
+
+Angrist, J. D., & Lavy, V. (1999). Using Maimonides' rule to estimate the effect of class size on scholastic achievement. *The Quarterly Journal of Economics*, *114*(2), 533--575. Retrieved from http://qje.oxfordjournals.org/content/114/2/533.short
+
+Black, S. E. (1999). Do better schools matter? Parental valuation of elementary education. *Quarterly Journal of Economics*, *114*(2), 577--599. Retrieved from http://qje.oxfordjournals.org/content/114/2/577.short
+
+Klaauw, W. Van der. (2002). Estimating the Effect of Financial Aid Offers on College Enrollment: A Regression--Discontinuity Approach. *International Economic Review*, *43*(4), 1249--1287. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/1468-2354.t01-1-00055/full
+
+## 推荐阅读
+
+Angrist, J. D., & Pischke, J. S. (2015). *Mastering metrics: The path from cause to effect*. Princeton and Oxford: Princeton University Press.
+
+Pearl, J. (2018). *The Book of Why: The New Science of Cause and Effect*. New York: Basic Books.

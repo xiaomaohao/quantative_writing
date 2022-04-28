@@ -1,0 +1,34 @@
+---
+title: "量化研究论文写作指导"
+---
+
+## 课程大纲
+
+-   [课程大纲](syllabus.qmd)
+
+## 课程课件
+
+-   [课程概览](p1_overview.qmd)
+
+-   [问题选择](p2_question.qmd)
+
+-   文献综述
+
+-   理论框架
+
+-   方法设计
+
+-   数据分析
+
+-   结果呈现
+
+-   讨论结论
+
+## 课程材料
+
+-   [R 自学路线图](R_self_learning.qmd)
+
+-   [STATA自学路线图](Stata_self_learning.qmd)
+
+-   [量化研究方法自学](the_hard_way.qmd)
+

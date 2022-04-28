@@ -1,0 +1,209 @@
+---
+title: "Stata_self_learning"
+---
+
+# Must-known commands
+
+## 1. environment preparation
+
+-   pwd
+
+-   dir
+
+-   cd
+
+-   sysdir
+
+-   ssc hot/install
+
+-   net from/install
+
+-   findit
+
+-   use
+
+-   sysuse
+
+-   save
+
+## 2. familiarize data
+
+-   describe
+
+-   br
+
+-   edit
+
+-   codebook
+
+-   inspect
+
+-   list
+
+-   label list
+
+-   label define
+
+-   label val
+
+-   label var
+
+-   tab
+
+-   tab1
+
+-   sum
+
+-   hist
+
+-   graph bar
+
+## 3. data wrangling
+
+-   gen
+
+-   egen
+
+-   keep
+
+-   drop
+
+-   rename
+
+-   recode
+
+-   encode
+
+-   collapse
+
+-   merge
+
+-   append
+
+-   reshape
+
+-   misstable sum
+
+## 4. exploratory data analysis
+
+-   kdensity
+
+-   scatter
+
+-   pwcorr
+
+-   corr
+
+-   ttest
+
+-   anova
+
+## 5. advanced table
+
+-   tabmiss
+
+-   tabout
+
+-   tabstat
+
+-   ttable2
+
+-   estout
+
+-   outreg2
+
+-   asdoc
+
+-   fsum
+
+-   logout
+
+-   misstable patterns
+
+-   *sum2docx*
+
+-   *corr2docx*
+
+-   *t2docx*
+
+-   *reg2docx*
+
+## 6. Advanced graph
+
+-   gr tw scatter
+
+-   tw lfit
+
+-   tw qfit
+
+-   tw mspline
+
+-   tw mband
+
+-   tw fpfit
+
+-   tw lowess
+
+-   tw lfitci
+
+-   tw dropline
+
+-   tw spike
+
+-   tw dot
+
+-   tw line
+
+-   tw connected
+
+-   tw tsline
+
+-   tw tsrline
+
+-   tw area
+
+-   tw bar
+
+-   tw rarea
+
+-   tw rconnected
+
+-   tw rcap
+
+-   tw rbar
+
+-   tw histogram
+
+-   tw kdensity
+
+-   tw contour
+
+-   graph matrix
+
+-   **graph hbar**
+
+-   **graph hbox**
+
+-   **grpah dot**
+
+-   **graph pie**
+
+-   set scheme
+
+-   graph export
+
+## 7. advanced model
+
+-   reg
+
+-   logit
+
+-   xtreg
+
+-   mixed
+
+-   psmatch2
+
+-   ivreg
+
+-   spmap

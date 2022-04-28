@@ -1,0 +1,202 @@
+---
+title: "DAG and identification"
+author: "Yangyong Ye"
+format: revealjs
+editor: visual
+execute: 
+  echo: false
+---
+
+## DAG
+
+A DAG displays assumptions about the relationship between variables (often called nodes). The assumptions we make take the form of lines (or edges) going from one node to another. These edges are directed, which means to say that they have a single arrowhead indicating their effect.
+
+```{r}
+library(ggdag)
+library(ggplot2)
+theme_set(theme_dag())
+dagify(y~x) %>% 
+  ggdag()
+```
+
+## bidirection
+
+```{r}
+dagify(y ~~ x) %>% 
+  ggdag()
+```
+
+## bidirection = confounder
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+dagify(y ~~ x) %>% 
+  ggdag_canonical() 
+```
+
+## acyclic
+
+```{r}
+dagify(y ~ x,
+       x ~ a,
+       a ~ y) %>% 
+  ggdag() 
+
+```
+
+## mediation
+
+```{r}
+
+ggdag_mediation_triangle()
+
+```
+
+## confounder
+
+```{r}
+ggdag_confounder_triangle()
+
+```
+
+## collider
+
+```{r}
+
+ggdag_collider_triangle()
+```
+
+## collider
+
+```{r}
+fever_dag <- collider_triangle(x = "Influenza", 
+                  y = "Chicken Pox", 
+                  m = "Fever") 
+
+ggdag(fever_dag, text = FALSE, use_labels = "label")
+```
+
+## collider, control or not control
+
+```{r}
+ggdag_dseparated(fever_dag, text = FALSE, use_labels = "label")
+```
+
+## collider, control or not control
+
+```{r}
+ggdag_dseparated(fever_dag, controlling_for = "m", 
+                 text = FALSE, use_labels = "label")
+```
+
+## descendant of colliders
+
+```{r}
+dagify(fever ~ flu + pox, 
+        acetaminophen ~ fever,
+        labels = c("flu" = "Influenza",
+                   "pox" = "Chicken Pox",
+                   "fever" = "Fever",
+                   "acetaminophen" = "Acetaminophen")) %>% 
+ggdag_dseparated(from = "flu", to = "pox", controlling_for = "acetaminophen",
+                 text = FALSE, use_labels = "label")
+```
+
+## mediation
+
+```{r}
+smoking_ca_dag <- dagify(cardiacarrest ~ cholesterol,
+       cholesterol ~ smoking + weight,
+       smoking ~ unhealthy,
+       weight ~ unhealthy,
+       labels = c("cardiacarrest" = "Cardiac\n Arrest", 
+                  "smoking" = "Smoking",
+                  "cholesterol" = "Cholesterol",
+                  "unhealthy" = "Unhealthy\n Lifestyle",
+                  "weight" = "Weight"),
+       latent = "unhealthy",
+       exposure = "smoking",
+       outcome = "cardiacarrest")
+ggdag_dseparated(smoking_ca_dag, controlling_for = c("weight", "cholesterol"), 
+                 text = FALSE, use_labels = "label", collider_lines = FALSE)
+```
+
+## complicated
+
+```{r}
+
+dag1 <- dagify(Y ~ D + I,
+               D ~ B + I + PE,
+               I ~ PE,
+               PE ~ B,
+               exposure = "D",
+               outcome = "Y",
+               latent = "B")
+
+ggdag(dag1)
+
+
+```
+
+## parents
+
+```{r}
+ggdag_parents(dag1, "D")
+```
+
+## 
+
+```{r}
+ggdag_children(dag1, "D")
+```
+
+## ancestors
+
+```{r}
+ggdag_ancestors(dag1, "Y")
+```
+
+## descendants
+
+```{r}
+ggdag_descendants(dag1,"B")
+```
+
+## path
+
+```{r}
+ggdag_paths(dag1,shadow = T)
+
+```
+
+## adjuestment set
+
+```{r}
+ggdag_adjustment_set(dag1, exposure = "D",
+                     outcome = "Y")
+```
+
+## collider bias
+
+```{r}
+dag2 <- dagify(Y ~ D + U1 + U2,
+               D ~ U1 + U2,
+               I ~ U1 + U2,
+               exposure = "D",
+               outcome = "Y",
+               latent = c("U1","U2"))
+ggdag(dag2)
+```
+
+## 
+
+```{r}
+ggdag_paths(dag2,shadow = T)
+```
+
+## ajustment
+
+```{r}
+ggdag_adjustment_set(dag2)
+```

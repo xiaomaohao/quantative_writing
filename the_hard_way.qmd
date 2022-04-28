@@ -1,0 +1,75 @@
+---
+title: "The hard way to self-learn quantitative method"
+format: html
+---
+
+# BASIC LEVEL
+
+## Probability
+
+-   [Introduction to Probability](https://projects.iq.harvard.edu/stat110/home)
+
+## Statistics
+
+-   [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+
+## Linear algebra
+
+-   [Introduction to Linear Algebra, 2016](https://math.mit.edu/~gs/linearalgebra/)
+
+## R practise
+
+-   [Quantitative Research Methods for Political Science, Public Policy and Public Administration: 4th Edition With Applications in R](https://bookdown.org/ripberjt/qrmbook/)
+
+# SECOND LEVEL
+
+-   [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/index.html)
+
+-   [Statistical Rethinking: A Bayesian Course with Examples in R and Sta](https://xcelab.net/rm/statistical-rethinking/)
+
+-   [Gelman, Andrew, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin. Bayesian Data Analysis. The CRC Press, 2014.](https://doi.org/10.2307/2988417.)
+
+
+
+# CAUSAL INFERENCE
+
+## Econometric
+
+-   [Angrist, Joshua D., and Jörn-Steffen Pischke. Mastering Metrics: The Path from Cause to Effect, 2015.](https://www.masteringmetrics.com/)
+
+-   [Joshua D. Angrist and Jörn-Steffen Pischke, Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
+
+-   [Imbens, Guido W., and Donald B. Rubin. Causal Inference for Statistics, Social, and Bio-medical Sciences: An Introduction. New York: Cambridge University Press, 2015.](https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884)
+
+-   [Cunningham, Scott. Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+
+## Epistemology
+
+-   [Causal Inference: What If](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
+-   [Morgan, Stephen L., and Christopher Winship. Counterfactuals and Causal Inference: Methods and Principles for Social Research, 2014.](https://doi.org/10.1017/CBO9781107587991)
+
+-   [VanderWeele, Tyler. Explanation in Causal Inference, 2015.](https://www.amazon.com/Explanation-Causal-Inference-Mediation-Interaction/dp/0199325871)
+
+## computer science
+
+-   [Pearl, Judea. The Book of Why: The New Science of Cause and Effect. Basic Books. New York, 2018.](https://doi.org/10.1090/noti1912)
+
+-   [Pearl, Judea. Causality: Models, Reasoning, and Inference, Second Edition. Second Edition, 2009.](https://doi.org/10.1017/CBO9780511803161)
+
+-   [Pearl, Judea, Madelyn Glymour, and Nicholas P. Jewell. Causal Inference in Statistics: A Primer. Wiley, 2016.](https://doi.org/10.1097/00001888-198611000-00007)
+
+
+# OTHERS
+
+-   [Kloke, John, and Joseph W. McKean. Nonparametric Statistical Methods Using R. Key Concepts in Critical Management Studies. CRC press, 2015](https://doi.org/10.4135/9781446289013.n11).
+
+-   [Wood, Simon N. Generalized Additive Models. CRC, 2017.](https://doi.org/10.1201/9780203738535).
+
+## 空间分析
+
+-   [Geocomputation with R](https://geocompr.robinlovelace.net/)
+-   [Spatial Data Science with applications in R](https://keen-swartz-3146c4.netlify.app/)
+-   [Spatial Point Patterns:Methodology and Applications with R](http://book.spatstat.org/)
+-   [Introduction to Spatial Data Programming with R](http://132.72.155.230:3838/r/index.html)
+-   [Spatial Microsimulation with R](https://spatial-microsim-book.robinlovelace.net/)
