@@ -1,0 +1,744 @@
+[
+  {
+    "objectID": "notes_in_the_process.html",
+    "href": "notes_in_the_process.html",
+    "title": "量化研究学习笔记",
+    "section": "",
+    "text": "教育学术研究一个很重要的目标在于解决问题？这永远是研究的起点问题？研究的起点不应当是理论，也不应当是政策规定。\n\n\n我们需要更多地去关注是什么与为什么的问题，而不是应当是什么和怎么做问题？对于意义与价值的思考是哲学的问题？ 提高研究问题表达的精准的程度。\n举一个简单的例子，学术研究的思路和做工作的思路是不一致的？实践者可以需要解决的问题是，课后服务内容的设计是合理的？我应当提供一种什么样的课后服务内容？但是这个问题的回答则比较，对现有的已经实施的课后服务措施进行评估？找出哪些有效的，哪些是无效的？这个研究结果最终也会回答最初的问题？但是思路是不一样的。我们应当提供什么样合理的课后服务内容？我们无法或者很先验地知道哪些措施是好的，专家建议的就是好的么，政策文本中建议就是好的么？其实未必，最终还是需要实践，实践是检验可行性的重要标尺。\n学术研究虽然聚焦现实问题，也是可能是一个操作性的问题，那么它会关注操作的各个细节么？比如说课后服务的实施会涉及组织者、时间、任务分工、激励措施、内容的选择与设计、实施等等诸多方面。我们是否需要关注每个细节。研究工作当然是不可以关注每一个细节的。那么研究要去关注什么？这就需要关注这个事件中的一个核心的、关键的要素，以及操作中的核心环节。\n“认识不足”，“重视不够”是教育问题存在的原因么？\n\n\n学生学习效果的问题，\n教师质量的评估，教师成长规律的认识\n教育领导力的定义与测量？\n教育资源的分配与使用效率问题？\n\n\n\n\n研究都会涉及收集信息和分析信息问题？那么如何科学地收集信息，如何表征这些信息？比如搜集信息的方式，到涉及到抽样和问卷调查的方式，当然还有就是使用行政管理数据，代表的是全样本的数据。表征信息的方式，这里面包括数字，或者文字表征方式。改变我们的论证方式？ 之前的研究，多采用形式逻辑的推理方式，归纳法、演绎的方式，或者利弊对比的分析方式，有比较法（相同和不同点），这里面有概念界定的？有特征总结描述。而科学的研究方式，应当是用数据和事实来表明客观是什么的问题？用因果推断的技术去证实或者证伪因果，关系的问题。\n\n\n\n结果的呈现，表现对现实的精准描述，对未来的准确预测，对作用机制的准确分析。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#概率与统计之间是一种什么样的关系",
+    "href": "notes_in_the_process.html#概率与统计之间是一种什么样的关系",
+    "title": "量化研究学习笔记",
+    "section": "概率与统计之间是一种什么样的关系",
+    "text": "概率与统计之间是一种什么样的关系\n以前并没有看出二者的联系，觉得它们是相对独立的知识。概率是对可能性或者不确定性的度量。统计是基于数据对概率的估量。（对概率与统计的基本知识，还需要进一步学习，以前纯粹把他们当成一种知识来学习，接下来需要系统理解概率与统计的功能。概率与统计自身没有意义，唯有用其解决研究中的问题才有意义和价值。因此，需要把他们与回归分析、因果推断联系起来。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#回归模型与因果推断之间的关系",
+    "href": "notes_in_the_process.html#回归模型与因果推断之间的关系",
+    "title": "量化研究学习笔记",
+    "section": "回归模型与因果推断之间的关系",
+    "text": "回归模型与因果推断之间的关系\n以前，我对回归模型与因果推断之间的关系理解不是太透彻，觉得因果推断是更为高级和复杂的回归模型，只是模型使用对了，就是可以得出因果的论断。但是最近重新学习概率与统计的知识，和因果推断的相关研究。才发现二者的关系并不是这样的。回归模型是只是解决变量之间的数理关系，即相关性的问题，自变量的变化怎么带来因变量的变化。这种关系可是因果性，也可以是非因果性。将这种关系理解为因果关系，需要符合一定的假设，这些假设主要是关于数据是如何产生的。这里面会涉及，遗漏变量的问题，样本偏差的问题，反射因果问题。测量误差或者交互效应的问题等等。是否能够得出因果的推断主要是与这些要素有关的假设，是否成立。即主要是对数据生成过程的认识和理解，而不在于使用更为复杂的回归模型。相关回归模型只是一种工具。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#频率学派和贝叶斯学派之间的差异",
+    "href": "notes_in_the_process.html#频率学派和贝叶斯学派之间的差异",
+    "title": "量化研究学习笔记",
+    "section": "频率学派和贝叶斯学派之间的差异",
+    "text": "频率学派和贝叶斯学派之间的差异\n统计推断中越来越多的人提倡使用贝叶斯方法，认为这种推断更接近于我们对于真理的定义和认识真理的路径，即真理是一个可能性的结论，而不是一个确定性结论，认识真理的过程，即是通过新的数据，更新原有认知的过程，即是对原告可能性结论进一步优化的过程。 那么频率学派的推论的逻辑是怎样的呢？（需要接下来的学习，进一步总结）"
+  },
+  {
+    "objectID": "notes_in_the_process.html#概率与统计在教育研究的意义",
+    "href": "notes_in_the_process.html#概率与统计在教育研究的意义",
+    "title": "量化研究学习笔记",
+    "section": "概率与统计在教育研究的意义",
+    "text": "概率与统计在教育研究的意义\n量化研究方法在逐步的被用研究教育问题之中，大家都在学习一些统计学的技术和方法，进行一些标准的化的量化研究。把它当成一种认为教育现实和规律的方式。但是很少有人思考，用量化方法来表达的事实就是真实的事实，用量化的方法揭示的规律就是正的规律。我们在学习怎么接近真理的方法。但鲜有人去思考什么是真理？为什么说统计方法能够让我们去接近真理。使用量化研究方式，或者的研究方法本身背后有一些预设的。这些预设成立的情况下，量化研究的结论才是可接受的。比如研究对象是可量化的，比如教师的幸福感，学生的学生效果，教师的教学质量，学生的学生兴趣，学生的心理健康程度，校长的领导风格。这些对象是否是可测量的。其实是没有定论。\n量化研究另外一个重要的假设，是试图通过样本的特征和规律来揭示总体的特征和规律。这一过程会多种手段，比如说频率学派的统计推断方式，贝叶斯学派的方式，各自背后的方式是不太一样的。\n另外，量化研究还有一个假设是我们更多地是关注平均效应，而无法预测，甚至不去关注对于个体的效果。那么这样的研究意义在哪，而对于实践者来说，更会关注具体一个学生、或者一个学生的具体行为怎么变化，怎么干预的问题，如果我们注定无法回答个体的问题，只是揭示一个群体的特征和规律的话，那么它的意义又何在么？客观世界的丰富性，多元性，丰富性差异性是否应该关注，\n另外，量化推断一个非常重要的假设是，所以统计推断都是一种可能性的结论。即我们永远无法100％地肯定某一些结论是准确，只能说在很大可能或才极其是可能的某一结论是成立，可惜的是很初学量化的研究会忘记这一点。这也会涉及到一个本体论的问题，人类掌握的规律本质必须是确定的，还只是永远都一种可能性的规律。即我们永远无法知道一个事情是否成立，但是我们可以在它在多大可能下是成立的。最终的结果就是至少现有的证据证明它是成立的，我就认为它是成立，除非有相反的证据证明它不是。\n以上一些想法是在看概率与统计史时引发的一些思考。这可能是量化研究方法在现实中受到一些学者的质疑背后的原因，这里面有一些方法论背后的认识论的差异问题。对于这一问题的讨论非常重要，一方面可以消解非量化研究者的质疑；一方面，也能减少初学者对量化研究方法的误用。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#预测与解释之间的关系",
+    "href": "notes_in_the_process.html#预测与解释之间的关系",
+    "title": "量化研究学习笔记",
+    "section": "预测与解释之间的关系",
+    "text": "预测与解释之间的关系\n我们为什么需要关注因果？\n相关性对于我们的意义在哪？\n相关性的研究是铺垫性质，它本身可能没有实际的意义，但是它有助于我们进行下一步的研究。比如因果或者预测。\n没有因果的预测，其意见在哪？\n比如说学历对能力的作用？有两种假设，教育提高了学生能力，教育把有能力的人识别出来的。如果是前者的话，那么则具有干预的功能，让学生通过教育提高能力，但如果是后者，能力弱的人不能通过教育得以提高。但是无论是教育提高了学生能力，还是把能力高的学生筛选出来，企业用人来说意义不大，他们只要知道高学历与高能力之间的具有正相关就可以了。它的目标是把能力好的人识别出来。而不在意其能力是怎么来的。\n如此说来，这也试用于本科生招生和研究生招生，我们并不在意见某一因素对学生的能力因果效应，我们只在意这一因素是否识别出来能力较强者。再拓展一下，教师招聘的问题，如果仅仅是关注新进教师的质量，那么我们找到高质量教师质量的指示变量即可。但是如果我们关注的是教师教育的质量的话，那么我们需要关注那些因素具有因果的效应。比如说人才培养方案，课程体系的设置。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#描述研究的意义是什么",
+    "href": "notes_in_the_process.html#描述研究的意义是什么",
+    "title": "量化研究学习笔记",
+    "section": "描述研究的意义是什么？",
+    "text": "描述研究的意义是什么？\n我们为什么知道一个特征的频数信息，男女比例的问题？入学率的问题？学历达标率的问题，4%的问题，另外，学龄人口增长率的问题。为什么我们要在意这些，还有哪些重要的比例问题我们需要在意？\n现比如说我们为什么关注学生的成绩，为什么要关注平均成绩，除了关注平均成绩之外，我们还想关注什么？对教师而言，他可能关注那些最低分或者最高分的同学，低分需要重点关注，如何提高他们的成绩，而高分同学可能更多地为班级或学校争取荣誉，也给更多地给教师带来职业幸福感？"
+  },
+  {
+    "objectID": "notes_in_the_process.html#概率与统计无处不在",
+    "href": "notes_in_the_process.html#概率与统计无处不在",
+    "title": "量化研究学习笔记",
+    "section": "概率与统计无处不在",
+    "text": "概率与统计无处不在\n比如说是否打疫苗、是否买保险、是否考研？\n是否买彩票\n汽车摇号，学位摇号，为什么我们觉得随机事件是公平，每一个人被命中的概率是等同的，因此，就是公平的。但是我们为什么知道每一个人的被命中的概率是等同的，这是我们想像的，还是客观存在的，比如抛掷硬币的事情，为什么我们觉得硬币朝上的概率是50％，有没有其它可能，为什么不是70％。\n客观事件的发生，为什么有些事件我们会一个理论估值，但是另外一些事件我们没有一个理论的估值，比如考研成功的概率，对某一个事件效果的评估。\n我们还会用数量来表达现实，\n种种统计报表，数值、占比，频数。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#概率与统计功能",
+    "href": "notes_in_the_process.html#概率与统计功能",
+    "title": "量化研究学习笔记",
+    "section": "概率与统计功能",
+    "text": "概率与统计功能\n描述\n预测\n解释\n干预"
+  },
+  {
+    "objectID": "notes_in_the_process.html#一个新的理解统计推断的思路",
+    "href": "notes_in_the_process.html#一个新的理解统计推断的思路",
+    "title": "量化研究学习笔记",
+    "section": "一个新的理解统计推断的思路",
+    "text": "一个新的理解统计推断的思路\n统计推断的基本功能是通过样本特征来提示总体的特征。包括描述性的特征，也包括一些变量之间的关系。那么我们以何种标准来确定样本选择是能够反映整体特征，在整体不知道的情况。这可能是一个难题。但是假如如果我真的知道这个理论值的话，就可以推断样本的推测的值是不是具有代表性，或者准确。\n比如说掷硬币的问题。我们知道它出现的概率是0.5。我们可以通过重复抽样来接近个概率，以此可以判断某一个硬币的准确性。这是因为我们无法知道某一个硬币某一抛掷后的结果，但是我们知道如果抛掷足够多的次数后，我们可以知道他们最终的结果。（这似乎是理解统计推断的一个好的例子，但好像又不是！）。统计推断是不知道某一变量本身的分布，但是如果无数次取值的话，那么它的的样本均值的分布是知道（中心极限定理），因为我知道样本均值的分布，所以可以计算出某一样本的均值随机出现的概率。如果这个概率是极低的，但是现在一次抽样，就获得了这个值，这说明原假设很可能是不对的。那么就是备择假设是对的。这是传统统计推断的理论基础。这样的理论推断遭到了越来越多的质疑。（我现在还不是很理解这个质疑的合理性在哪，所以要需要进一步理解贝叶斯统计推断的基本原理）。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#回归分析时的统计推断",
+    "href": "notes_in_the_process.html#回归分析时的统计推断",
+    "title": "量化研究学习笔记",
+    "section": "回归分析时的统计推断",
+    "text": "回归分析时的统计推断\n对参数的统计统计推断的理论基础是什么？置信区间的内涵是什么？和对变量均值的估计的理论基础是一致的么？"
+  },
+  {
+    "objectID": "notes_in_the_process.html#科学模型与统计模型之间的关系",
+    "href": "notes_in_the_process.html#科学模型与统计模型之间的关系",
+    "title": "量化研究学习笔记",
+    "section": "科学模型与统计模型之间的关系",
+    "text": "科学模型与统计模型之间的关系\n一项研究首先需要有一个科学模型，即对客观世界中各要素之间关系的设想，而统计模型是以回归方程的方式来证实或者证伪这个科学模型，在一定的假设条件中。统计模型只是给科学模型提供一定的支撑，而统计模型无法完全证实科学模型的正确与否。也就是说统计模型无法独立证实科学模型。统计模型可以回答一个因素的变化，伴随着另外一个因素的变化，但是无法回答到底哪个因素是因，哪个因素是果。\n认识到这一点之后，我们如何进行研究的设计，如何进行统计方法的选择。首先需要对研究的对象的微观机制进行充分的了解，因此，个案分析是必不可少的步骤。研究的规律或者认识的规律以归推理为前提，看清个案，在个案中总结其中的规律性东西。找出规律性的东西，即是形成假设的能力，也是理论创新的能力。所以理论创新的能力来自于对现实的把握。因此，研究者一定要接触现场。\n（研究的专业化与现实的脱节。在学术研究的早期，研究者一般是实践者，二者是一体的，比如对教学方法的研究，可能是在这做个工作，一边工作，一边研究，所谓研究即是对自己工作的反思与总结，这种研究是以现实、现场为前提的），但是当学术研究成为一种专业的时候，很多研究者并不是实践者，那么，此时，就需要一些途径和方法，让他们对接触现实，体现现场。如果没有去接受现实，体验现场的话。那么他们的研究多半是不切实际的。比如硕士生、博士生的研究。他们一般是缺乏对现实的把握。所以对他们来说，一个巨大的障碍是如何发现有价值和有意义的问题。由此可知硕博的培养应当加强对现实问题的了解和接触。最好的途径是接触现场，其次是通过转述。\n统计模型是服务于理论模型的，那么我们必须很好了解模型的适用条件和特征，这样才能有效使用这些模型。这个过程，应该将统计模型作为一种技能来年看待，即是技能就需要不断地练习，最终才能熟能生巧。才能为科学研究服务。\n学习统计模型，可以遵循做中学，看中学，再在推理中学的步骤。传统的学习是在推导中学习概率与统计，先学习抽象的理论，进而将理论应用于实际问题的解决中。即先理解，后操作。但是更有利的方式可能先操作，后理解。将抽象的东西具体化，将隐藏的东西可视化，这样才能有助于理解。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#什么是随机变量",
+    "href": "notes_in_the_process.html#什么是随机变量",
+    "title": "量化研究学习笔记",
+    "section": "什么是随机变量？",
+    "text": "什么是随机变量？\n变量是一个可变化的量，是和常数对应的概念。随机变量是什么呢？是否是指这个变化的量中的量的变化的是随机的。比如说我们说一个班级的成绩是随机变量。但是班级里面的是确定的，不是随机的。更进一步需要追问的是，什么是随机？随机是基于实验的事件空间，即一个实验有多少可能的结果。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#回归方程需要厘清的几个问题",
+    "href": "notes_in_the_process.html#回归方程需要厘清的几个问题",
+    "title": "量化研究学习笔记",
+    "section": "回归方程需要厘清的几个问题",
+    "text": "回归方程需要厘清的几个问题\n其一，如果有一个xj，其与其它xj和e都不相关，但与y相关，这个变量遗漏是否对其它经的影响的估计有影响。这个是没有影响的。\n其二，加入变量带来的影响，假如加入一个变量，对其变量带来影响。这有哪些可能的机制，collider bias, mediation, comfound, 除此之外呢，还有什么更复杂的因素？"
+  },
+  {
+    "objectID": "notes_in_the_process.html#模型选择与数据生成过程",
+    "href": "notes_in_the_process.html#模型选择与数据生成过程",
+    "title": "量化研究学习笔记",
+    "section": "模型选择与数据生成过程",
+    "text": "模型选择与数据生成过程\n以前在做模型选择的时候，这里面主要是指选择线性回归，logistic 回归，multi logistic 回归，ordinal回归，还是就是count数据的回归。基于因变量的数据类型选择不同的回归议程。现在学习熵的理论之后，才明白为什么选择这些回归。主要是这亲数值的产生过程的假设。这里面没有一个必须科学的东西的在里面。只是基于已有的信息而做出的最保守的对因变量取值的分布的假设。比如binomial, poisson等等。这个假设是否合理，需要我们对客观现象有深刻的了解。另外，为了能更好的理解这些假设的合理性。那么必须了解这些有名的概率分布的内涵与属性。这样才能更深刻地理解回归议程。\n另外一个重要的问题，真正回归的时候，其它是对epsilon的分布回归的假设，而不是针对y的假设。这个还需要进一步的理解。另外，对于系数的假设在frequentist回归方程中多数是基于t分布假设。\n在理解量化研究的路上，以下数学基础是必须拥有的，概率论的知识，以前对于概率论的学习还是太少了，导致着在学习量化研究方法时，很难理解其中的一些推理。因是概率论是学习量化研究的基础。而学好概率论则需要，线性代数和微积分的知识。这是基础的的基础。接下来要利用规律时间。逐步夯实这两门知识。在学习好概率论的基础上，要学习统计推断的知识。introduction to modern statistics(online),使用simulation的方式讲授知识，很容易理解一些。这里面有两个流派，频率派和贝叶斯派，这两个学派的技术都要学习。在以上的基础之上，再说因果推断的知识，这包括counterfactual and DAG。在夯实自己在量化研究上的技术的过程中。需要采取以下三种学习模式：突击学习、长期学习和实践学习。实践学习都将业已学习的知识运用的教育问题的研究中来，今年要开始写量化研究的论文了。2022年至少要写三篇。另外，就是突击学习、最近在突击学习是概率论和贝叶斯统计推断的知识。接下来要把线性代数的知识拿起来了。\n在今后的学习过程中，需要不断的做笔记，写感想，形成相关的材料集。供今后教学使用。\n学习的步骤应当遵循先易后难的原则。另外, introduction to probability　这本书是极好的，它不仅仅是讲授抽象的理论，更注重将这些抽象的理论转化成生活的语言，生活中的例子。这使得知识点易于理解，也使得知识变得有趣。statistical rethinking这本书也是极好的，这把知识转化为可理解故事。用简单的故事，和打比方的方式讲解知识，也是很好的授课技巧。这两本书都展现了作者对知识本向理解的通透，也对知识与生活之间的关系把握的比较深刻。这是我需要学习的。rethinking这本书还有一个非常好的学习技术，就是simulation,当然itp这本书，也在强调这项技术的应用。因此，在今后的学习、教学、科研过程中也要加强这项技术的使用。\n量化研究作为一项技术，需要不断的重复训练，这项技术才会熟练起来，熟练起来才会有新的突破。\n在接触survival analysis的时候发现，probability的知识真是太重要了，一定要理解概率论的知识，这是其它统计方法的基础。这个不夯实，其它很难取得进步。\n预测与因果之间的关系\n以前我觉得这两者是递进关系。但是要区分这两个事件的不同。预测是针对因变量而言，不管自变量的多少和指数。只要在有限的自变量的信息的情况下，可能准确的预测因变量就行。而因果关系刚探讨的是变量之间的关系问题。\n就模型而言，一个能有效预测结构的模型，并不是一定揭示因果。而且一个准确的因果则可以对于未来的预测做到准备。为什么？\n学术研究喜欢问为什么？即探究因果问题，一个要素的变化是否会给另一个要素带来变化。但是我们更需要思考的是预测。比如一个地区的学生总量，一个地区教师流动的数量，区域间的高考学生成绩差异，教师工资差异。一个是否考研，是否能考上，毕业生是否进入体制内？在学术研究上会有什么突破呢？现在能够想到的，预测研究作为因果研究的基础阶段，比如匹配法的使用过程中，以前使用logistic 方程对个体是否进入实验组进行测量，而现在则可以使用机器学习的方式进行更准确的预测。只要预测准确即可，并不需要了解预测使用的变量与预测结果之间的因果关系。"
+  },
+  {
+    "objectID": "notes_in_the_process.html#dag的作用",
+    "href": "notes_in_the_process.html#dag的作用",
+    "title": "量化研究学习笔记",
+    "section": "DAG的作用",
+    "text": "DAG的作用\nDAG是一种很重要的表达工具。它的功能主要表现在以下方面：第一，表达理论模型，dag所代表的各种因素之间的关系与无关系，是我们对一个现象的发生与影响的种种假设；因此，他可以很好地表达我们的理论预设；第二，DAG可以有利于我们找到我们关心的一对因果关系的识别策略（identification strategies).比如控制哪些变量需要控制，哪些变量不需要控制，如果控制一些变量会带来哪些后果。\nDAG的局限\n无法表达调节效应，无法表达同时效应，即A作用于B的同时，b也作用于A，无法表达逆向因果效应。\n对一个问题的分析，需要使用不同来源的数据，不同的方法，最后可能得到一个一致的结果。\n\n因果推断的四个层次\n第一，完全的独立性假设，符合这一条件的只有随机实验；\n第二，条件独立性假设，基于观测变量的独立性假设，selection on the observed, 识别策略会涉及regression, matching, weighting, stratification等策略\n第三，非观测变量的选择性模型，selection on the unobserved, 这时候的识别策略会用到instrumental variable, regression discontinuity, difference in difference, fixed effect， front-door strategy.\n第四，bounds, sensitivity analysis.\n\n\n现在还比较疑惑的地方\n\npotential outcome framework and DAG\nfixed effect model解决了什么问题？\nBayesian inference\nmixed effect model的好处在哪？"
+  },
+  {
+    "objectID": "p2_question.html#什么问题是一个好的研究问题",
+    "href": "p2_question.html#什么问题是一个好的研究问题",
+    "title": "研究问题选择",
+    "section": "什么问题是一个好的研究问题？",
+    "text": "什么问题是一个好的研究问题？\n\nValuable\nNo answers yet\nIt is feasible"
+  },
+  {
+    "objectID": "p2_question.html#什么的问题才有价值",
+    "href": "p2_question.html#什么的问题才有价值",
+    "title": "研究问题选择",
+    "section": "什么的问题才有价值？",
+    "text": "什么的问题才有价值？\n\n理论价值\n实践价值\n为研究而研究？"
+  },
+  {
+    "objectID": "p2_question.html#什么样的研究问题才算创新",
+    "href": "p2_question.html#什么样的研究问题才算创新",
+    "title": "研究问题选择",
+    "section": "什么样的研究问题才算创新？",
+    "text": "什么样的研究问题才算创新？\n\n新问题？\n新理论？\n新方法？\n新数据？"
+  },
+  {
+    "objectID": "p2_question.html#创新的难度",
+    "href": "p2_question.html#创新的难度",
+    "title": "研究问题选择",
+    "section": "创新的难度",
+    "text": "创新的难度\n\n问题（最难的）\n理论（次难度）\n方法（次简单）\n数据（最简单）\n\n\n发现问题是很难的！"
+  },
+  {
+    "objectID": "p2_question.html#研究课题的可行性分析",
+    "href": "p2_question.html#研究课题的可行性分析",
+    "title": "研究问题选择",
+    "section": "研究课题的可行性分析？",
+    "text": "研究课题的可行性分析？\n\n能力\n人力\n财力\n时间\n\n\n进行学术研究，是探究新知的过程，需要一定的资源投入才能完成，根据选题内容的不同，学术研究需要以下资源：\n1.能力资源，既研究者个体的学术能力，包括研究者已有的知识储备、获得信息的能力、信息分析的能力。首先是研究者的知识，社会科学研究往往涉及复杂的社会问题，这需要研究对研究对象的具体事实情况有了深入的了解，还需要研究者有着丰富的理论知识，多学科理论视角来分析问题。第一点需要对一个问题有着充分的了解，比如说关注留守儿童的家庭教育问题？那么研究者就必须留守儿童的定义，留守儿童的规模，留守儿童家庭教育的现状有所理解，当然对留守儿童家庭教育存在的问题也要有所了解。再比如对于高考改革的问题，那么对中国高考制度的历史和现实要有充分的了解，什么是高考制度，高考制度包含哪些内容？现实中的问题是错综复杂的，如何来呈现和理解这些问题？这需要一些准确的语言，这就是一些逻辑自恰的概念体系，以些搭建一个易于理解的框架体系。需要一个怎样的理念框架体系，我在另文中论述。除了知识储备之外，研究者还需要充足的获取信息的能力？这部分即是研究方法的问题，包括质性研究方法和量化研究方法？质性研究方法，比如访谈法，历史研究方法，人种志，叙事，等，对于这些方法的操作流程要掌握。量化研究方法，这包括样本、概率、模型、统计学等知识。如果没有进行量化研究的能力，就不太适合选择一个量化的研究问题。另外，研究者还需要有拥有一定人际资源能够接触到研究对象，或者关于研究对象的数据。\n2.人力资源方面。除了研究者自身之外，有些研究不是一个人所能完成，需要一个研究团队才能完成，比如上面提到的理论知识和研究方法，这些能力可能并不是一研究者所能具备，这就需要组建不同的研究团队。对于学术论文而言，导师是否能够提供相应的学术支持，也是考虑选题的一个关键点。\n3.财力，很多学术研究是需要物质成本的，这包括劳务费（访谈、调查等）、资料费（书籍和打印或复印资料）、差旅费等。研究者是否有相应的资金支持，是选题应当考虑的一个问题。\n4.时间，虽然学术研究会有选题，课题有一定时效性。"
+  },
+  {
+    "objectID": "p2_question.html#研究问题从哪儿来",
+    "href": "p2_question.html#研究问题从哪儿来",
+    "title": "研究问题选择",
+    "section": "研究问题从哪儿来？",
+    "text": "研究问题从哪儿来？\n\n经验与观察\n实事新闻\n实地调研\n阅读、阅读、阅读"
+  },
+  {
+    "objectID": "p2_question.html#确定研究问题的过程",
+    "href": "p2_question.html#确定研究问题的过程",
+    "title": "研究问题选择",
+    "section": "确定研究问题的过程",
+    "text": "确定研究问题的过程\n\n现实问题是起点\n研究问题是不断权衡的结果"
+  },
+  {
+    "objectID": "p2_question.html#确定研究问题的过程-1",
+    "href": "p2_question.html#确定研究问题的过程-1",
+    "title": "研究问题选择",
+    "section": "确定研究问题的过程",
+    "text": "确定研究问题的过程\n\n从小到大，从大到小\n由概念到现象\n由现象到分类\n从简单到复杂，再从复杂到简单\n\n\n发现问题是很难的！研究问题是否自己内心真实的疑问？做为一个研究问题，必须还没有人回答的，如果有一个问题，但已经有了答案，那就不能成为一个问题了。"
+  },
+  {
+    "objectID": "p2_question.html#问题提出的写作",
+    "href": "p2_question.html#问题提出的写作",
+    "title": "研究问题选择",
+    "section": "问题提出的写作",
+    "text": "问题提出的写作\n\n交待背景\n呈现现实问题(数据指标/焦点事件/政府报告/最新政策)\n提炼研究问题"
+  },
+  {
+    "objectID": "p2_question.html#问题提出的类型",
+    "href": "p2_question.html#问题提出的类型",
+    "title": "研究问题选择",
+    "section": "问题提出的类型",
+    "text": "问题提出的类型\n\n问题、理论、数据、方法 (重要论述problem)\n问题、理论、数据、方法 (重点论述理论分歧与不足)\n问题、理论、数据、方法 (重点阐述已有数据的问题)\n问题、理论、数据、方法 (重点阐释方法上的问题)\n\n\n如果一个研究的问题是新的，也即开拓一个新研究领域，这是Problem要重点论述，以建立这个研究意义与价值？ 如果一个研究的问题是老问题，进行理论创新，即解释上有新的变量。那么理论上的分歧与不确定，则是需要加强论述的 如果一个研究的问题问题与理论都是老的，想做数据的创新工作，那么要指出以前数据的种种问题？ 如果一个研究问题与理论、数据都是老的，仅仅是方法是创新的，那么需要指出别人的方法存在问题？"
+  },
+  {
+    "objectID": "p2_question.html#练习",
+    "href": "p2_question.html#练习",
+    "title": "研究问题选择",
+    "section": "练习",
+    "text": "练习\n\n提出一个研究问题\n\n\n是关注果的因，还是关注因的果，一个研究问题刚被探究时，需要关注一个果的因，即一个事件的发生有哪些影响因素；但是对一个成熟的研究，应该关注的是一个因子与其果之间的关系。\n量化研究起始点的是一个基本事实，比如 研究者关注”洋学历”贬值的问题，那么首先要建立的一个基本事实即，这个现象在多在范围内存在，再比如，研究者关注博士生毕业进入非学术职业，那么首先需要建立的一个基本事实，这个现象有多严重？\n量化研究的另外一个起点，如果你关注一个因素A对另外一个因素B的影响，那么我们首先需要做的事情是假定在其它条件都一致的情况下，A对B可能的影响是什么？影响的机制是什么？而相反，其它影响对B有什么影响，或者其它因素是否干扰A对B 的影响，不应当是理论方面思考的问题。\n量化研究另外一个假设是，我们关注的是平均效应，并确定地关注某一个个体的结果是什么？\n在对整体的平均效应是存在的前提下，下一步思考的问题是关注，效用的异质性的问题，可能存在不同群体的人效果是不一样的问题。\n\n\n\nseeking truths through facts"
+  },
+  {
+    "objectID": "the_hard_way.html",
+    "href": "the_hard_way.html",
+    "title": "The hard way to self-learn quantitative method",
+    "section": "",
+    "text": "Introduction to Probability\n\n\n\n\n\nIntroduction to Modern Statistics\n\n\n\n\n\nIntroduction to Linear Algebra, 2016\n\n\n\n\n\nQuantitative Research Methods for Political Science, Public Policy and Public Administration: 4th Edition With Applications in R"
+  },
+  {
+    "objectID": "the_hard_way.html#econometric",
+    "href": "the_hard_way.html#econometric",
+    "title": "The hard way to self-learn quantitative method",
+    "section": "Econometric",
+    "text": "Econometric\n\nAngrist, Joshua D., and Jörn-Steffen Pischke. Mastering Metrics: The Path from Cause to Effect, 2015.\nJoshua D. Angrist and Jörn-Steffen Pischke, Mostly Harmless Econometrics\nImbens, Guido W., and Donald B. Rubin. Causal Inference for Statistics, Social, and Bio-medical Sciences: An Introduction. New York: Cambridge University Press, 2015.\nCunningham, Scott. Causal Inference: The Mixtape"
+  },
+  {
+    "objectID": "the_hard_way.html#epistemology",
+    "href": "the_hard_way.html#epistemology",
+    "title": "The hard way to self-learn quantitative method",
+    "section": "Epistemology",
+    "text": "Epistemology\n\nCausal Inference: What If\nMorgan, Stephen L., and Christopher Winship. Counterfactuals and Causal Inference: Methods and Principles for Social Research, 2014.\nVanderWeele, Tyler. Explanation in Causal Inference, 2015."
+  },
+  {
+    "objectID": "the_hard_way.html#computer-science",
+    "href": "the_hard_way.html#computer-science",
+    "title": "The hard way to self-learn quantitative method",
+    "section": "computer science",
+    "text": "computer science\n\nPearl, Judea. The Book of Why: The New Science of Cause and Effect. Basic Books. New York, 2018.\nPearl, Judea. Causality: Models, Reasoning, and Inference, Second Edition. Second Edition, 2009.\nPearl, Judea, Madelyn Glymour, and Nicholas P. Jewell. Causal Inference in Statistics: A Primer. Wiley, 2016."
+  },
+  {
+    "objectID": "the_hard_way.html#空间分析",
+    "href": "the_hard_way.html#空间分析",
+    "title": "The hard way to self-learn quantitative method",
+    "section": "空间分析",
+    "text": "空间分析\n\nGeocomputation with R\nSpatial Data Science with applications in R\nSpatial Point Patterns:Methodology and Applications with R\nIntroduction to Spatial Data Programming with R\nSpatial Microsimulation with R"
+  },
+  {
+    "objectID": "Stata_self_learning.html",
+    "href": "Stata_self_learning.html",
+    "title": "Stata_self_learning",
+    "section": "",
+    "text": "pwd\ndir\ncd\nsysdir\nssc hot/install\nnet from/install\nfindit\nuse\nsysuse\nsave\n\n\n\n\n\ndescribe\nbr\nedit\ncodebook\ninspect\nlist\nlabel list\nlabel define\nlabel val\nlabel var\ntab\ntab1\nsum\nhist\ngraph bar\n\n\n\n\n\ngen\negen\nkeep\ndrop\nrename\nrecode\nencode\ncollapse\nmerge\nappend\nreshape\nmisstable sum\n\n\n\n\n\nkdensity\nscatter\npwcorr\ncorr\nttest\nanova\n\n\n\n\n\ntabmiss\ntabout\ntabstat\nttable2\nestout\noutreg2\nasdoc\nfsum\nlogout\nmisstable patterns\nsum2docx\ncorr2docx\nt2docx\nreg2docx\n\n\n\n\n\ngr tw scatter\ntw lfit\ntw qfit\ntw mspline\ntw mband\ntw fpfit\ntw lowess\ntw lfitci\ntw dropline\ntw spike\ntw dot\ntw line\ntw connected\ntw tsline\ntw tsrline\ntw area\ntw bar\ntw rarea\ntw rconnected\ntw rcap\ntw rbar\ntw histogram\ntw kdensity\ntw contour\ngraph matrix\ngraph hbar\ngraph hbox\ngrpah dot\ngraph pie\nset scheme\ngraph export\n\n\n\n\n\nreg\nlogit\nxtreg\nmixed\npsmatch2\nivreg\nspmap"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "量化研究论文写作指导",
+    "section": "",
+    "text": "课程大纲"
+  },
+  {
+    "objectID": "index.html#课程课件",
+    "href": "index.html#课程课件",
+    "title": "量化研究论文写作指导",
+    "section": "课程课件",
+    "text": "课程课件\n\n课程概览\n问题选择\n文献综述\n理论框架\n方法设计\n数据分析\n结果呈现\n讨论结论"
+  },
+  {
+    "objectID": "index.html#课程材料",
+    "href": "index.html#课程材料",
+    "title": "量化研究论文写作指导",
+    "section": "课程材料",
+    "text": "课程材料\n\nR 自学路线图\nSTATA自学路线图\n量化研究方法自学"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "简介",
+    "section": "",
+    "text": "这是”量化研究论文写作指导”课程网站，内容包括课程大纲、课程课件和辅助材料。本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析等展开，以求课程结束，学生完成一篇论文的完整写作过程。"
+  },
+  {
+    "objectID": "p3_DAG.html#dag",
+    "href": "p3_DAG.html#dag",
+    "title": "DAG and identification",
+    "section": "DAG",
+    "text": "DAG\nA DAG displays assumptions about the relationship between variables (often called nodes). The assumptions we make take the form of lines (or edges) going from one node to another. These edges are directed, which means to say that they have a single arrowhead indicating their effect."
+  },
+  {
+    "objectID": "p3_DAG.html#bidirection",
+    "href": "p3_DAG.html#bidirection",
+    "title": "DAG and identification",
+    "section": "bidirection",
+    "text": "bidirection"
+  },
+  {
+    "objectID": "p3_DAG.html#bidirection-confounder",
+    "href": "p3_DAG.html#bidirection-confounder",
+    "title": "DAG and identification",
+    "section": "bidirection = confounder",
+    "text": "bidirection = confounder\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "p3_DAG.html#acyclic",
+    "href": "p3_DAG.html#acyclic",
+    "title": "DAG and identification",
+    "section": "acyclic",
+    "text": "acyclic"
+  },
+  {
+    "objectID": "p3_DAG.html#mediation",
+    "href": "p3_DAG.html#mediation",
+    "title": "DAG and identification",
+    "section": "mediation",
+    "text": "mediation"
+  },
+  {
+    "objectID": "p3_DAG.html#confounder",
+    "href": "p3_DAG.html#confounder",
+    "title": "DAG and identification",
+    "section": "confounder",
+    "text": "confounder"
+  },
+  {
+    "objectID": "p3_DAG.html#collider",
+    "href": "p3_DAG.html#collider",
+    "title": "DAG and identification",
+    "section": "collider",
+    "text": "collider"
+  },
+  {
+    "objectID": "p3_DAG.html#collider-1",
+    "href": "p3_DAG.html#collider-1",
+    "title": "DAG and identification",
+    "section": "collider",
+    "text": "collider"
+  },
+  {
+    "objectID": "p3_DAG.html#collider-control-or-not-control",
+    "href": "p3_DAG.html#collider-control-or-not-control",
+    "title": "DAG and identification",
+    "section": "collider, control or not control",
+    "text": "collider, control or not control"
+  },
+  {
+    "objectID": "p3_DAG.html#collider-control-or-not-control-1",
+    "href": "p3_DAG.html#collider-control-or-not-control-1",
+    "title": "DAG and identification",
+    "section": "collider, control or not control",
+    "text": "collider, control or not control"
+  },
+  {
+    "objectID": "p3_DAG.html#descendant-of-colliders",
+    "href": "p3_DAG.html#descendant-of-colliders",
+    "title": "DAG and identification",
+    "section": "descendant of colliders",
+    "text": "descendant of colliders"
+  },
+  {
+    "objectID": "p3_DAG.html#mediation-1",
+    "href": "p3_DAG.html#mediation-1",
+    "title": "DAG and identification",
+    "section": "mediation",
+    "text": "mediation"
+  },
+  {
+    "objectID": "p3_DAG.html#complicated",
+    "href": "p3_DAG.html#complicated",
+    "title": "DAG and identification",
+    "section": "complicated",
+    "text": "complicated"
+  },
+  {
+    "objectID": "p3_DAG.html#parents",
+    "href": "p3_DAG.html#parents",
+    "title": "DAG and identification",
+    "section": "parents",
+    "text": "parents"
+  },
+  {
+    "objectID": "p3_DAG.html#ancestors",
+    "href": "p3_DAG.html#ancestors",
+    "title": "DAG and identification",
+    "section": "ancestors",
+    "text": "ancestors"
+  },
+  {
+    "objectID": "p3_DAG.html#descendants",
+    "href": "p3_DAG.html#descendants",
+    "title": "DAG and identification",
+    "section": "descendants",
+    "text": "descendants"
+  },
+  {
+    "objectID": "p3_DAG.html#path",
+    "href": "p3_DAG.html#path",
+    "title": "DAG and identification",
+    "section": "path",
+    "text": "path"
+  },
+  {
+    "objectID": "p3_DAG.html#adjuestment-set",
+    "href": "p3_DAG.html#adjuestment-set",
+    "title": "DAG and identification",
+    "section": "adjuestment set",
+    "text": "adjuestment set"
+  },
+  {
+    "objectID": "p3_DAG.html#collider-bias",
+    "href": "p3_DAG.html#collider-bias",
+    "title": "DAG and identification",
+    "section": "collider bias",
+    "text": "collider bias"
+  },
+  {
+    "objectID": "p3_DAG.html#ajustment",
+    "href": "p3_DAG.html#ajustment",
+    "title": "DAG and identification",
+    "section": "ajustment",
+    "text": "ajustment"
+  },
+  {
+    "objectID": "p1_overview.html#本节内容",
+    "href": "p1_overview.html#本节内容",
+    "title": "课程概览",
+    "section": "本节内容",
+    "text": "本节内容\n\n学术研究\n量化研究\n课程内容\n量化论文写作"
+  },
+  {
+    "objectID": "p1_overview.html#什么是学术研究",
+    "href": "p1_overview.html#什么是学术研究",
+    "title": "课程概览",
+    "section": "什么是学术研究？",
+    "text": "什么是学术研究？\n\n\n发现未知\n信息加工\n知识生产\n社会职业"
+  },
+  {
+    "objectID": "p1_overview.html#学术研究意义何在",
+    "href": "p1_overview.html#学术研究意义何在",
+    "title": "课程概览",
+    "section": "学术研究意义何在？",
+    "text": "学术研究意义何在？\n\n\n理解现实\n改善现实\n更加美好的生活，更加美好的社会\n\n\n\n学术研究的作用如何发挥？ 直接/间接。对于研究者而言，学术研究的意义不仅仅表现一种知识，比如理解现实中一些复杂的问题，为现实问题提供有效的解决方案之类的，但是自己是否真正体会从困惑到释然的过程，一个自己一直纠结的问题，苦苦探索的问题，最好在某一瞬间发现了答案，一种豁然开朗的喜悦，如果没有这种这种喜悦，很难说自己对学术研究的意义有认同。另外一种，对经历过、或者看到学术影响的例子，是否有自己的研究成果直接有助于他人问题的解决。可以有的表现，是自己的研究结论最终带来了政策，与现实问题的解决，或者看到周边的人的学术研究成果改变了世界。这些对于学术研究意义体验或者经历，才能让人们建议学术理想和学术热情。"
+  },
+  {
+    "objectID": "p1_overview.html#研究生学习的意义",
+    "href": "p1_overview.html#研究生学习的意义",
+    "title": "课程概览",
+    "section": "研究生学习的意义",
+    "text": "研究生学习的意义\n\n\n把一件事情弄清楚\n把一件事情说明白"
+  },
+  {
+    "objectID": "p1_overview.html#学术研究的要素与结构",
+    "href": "p1_overview.html#学术研究的要素与结构",
+    "title": "课程概览",
+    "section": "学术研究的要素与结构",
+    "text": "学术研究的要素与结构"
+  },
+  {
+    "objectID": "p1_overview.html#什么是研究问题",
+    "href": "p1_overview.html#什么是研究问题",
+    "title": "课程概览",
+    "section": "什么是研究问题？",
+    "text": "什么是研究问题？\n\nphenomenon\nproblem\nquestion\n\n\nPhenomenon,作为一种背景，帮助读者理解problem, question Problem,是研究的起点，决定着研究的重要性，“待解决的现象”。 Question指出研究内容。“待回答的疑问”"
+  },
+  {
+    "objectID": "p1_overview.html#研究问题的形态",
+    "href": "p1_overview.html#研究问题的形态",
+    "title": "课程概览",
+    "section": "研究问题的形态",
+    "text": "研究问题的形态\n\n是什么\n为什么\n怎么做\n应当是什么"
+  },
+  {
+    "objectID": "p1_overview.html#练习",
+    "href": "p1_overview.html#练习",
+    "title": "课程概览",
+    "section": "练习",
+    "text": "练习\n\n列举5个教育现象\n列举5个教育问题\n列举5个研究问题"
+  },
+  {
+    "objectID": "p1_overview.html#什么是理论为什么需要理论",
+    "href": "p1_overview.html#什么是理论为什么需要理论",
+    "title": "课程概览",
+    "section": "什么是理论？为什么需要理论？",
+    "text": "什么是理论？为什么需要理论？\n\n\n理论是用于描述、解释、预测现实的相互关联的概念体系。\n理论就是对于一个现象或一个问题自圆其说的论证。\n理论提供表达与思维的支点。\n理论是由论断及其对论断论证过程组成。"
+  },
+  {
+    "objectID": "p1_overview.html#理论与模型的区别与联系",
+    "href": "p1_overview.html#理论与模型的区别与联系",
+    "title": "课程概览",
+    "section": "理论与模型的区别与联系",
+    "text": "理论与模型的区别与联系\n\nTheory是论断\nModel是数学表达"
+  },
+  {
+    "objectID": "p1_overview.html#量化研究的特点",
+    "href": "p1_overview.html#量化研究的特点",
+    "title": "课程概览",
+    "section": "量化研究的特点",
+    "text": "量化研究的特点\n\n关注事实\n量化表达\n关注总体\n可能性现实\n\n\n关于事实的研究是否有价值预设？ 是否是所有的问题都需要量化来表达？政策问题绝大多数需要。 关注总体的意义在哪？极值与异常值怎么办？ 世界是确定的么？\n量化研究有时需要质性研究为基础，与质性研究相互补充。"
+  },
+  {
+    "objectID": "p1_overview.html#量化研究与理论",
+    "href": "p1_overview.html#量化研究与理论",
+    "title": "课程概览",
+    "section": "量化研究与理论",
+    "text": "量化研究与理论\n\n理论是对关系的预设及其机制的论证\n理论在先、数据在后"
+  },
+  {
+    "objectID": "p1_overview.html#量化研究的层次",
+    "href": "p1_overview.html#量化研究的层次",
+    "title": "课程概览",
+    "section": "量化研究的层次",
+    "text": "量化研究的层次\n\n描述性分析\n相关性分析\n条件相关分析\n单个因果分析\n复杂因果分析"
+  },
+  {
+    "objectID": "p1_overview.html#量化研究的步骤",
+    "href": "p1_overview.html#量化研究的步骤",
+    "title": "课程概览",
+    "section": "量化研究的步骤",
+    "text": "量化研究的步骤\n\n确定选题\n数据收集\n数据分析\n结果呈现"
+  },
+  {
+    "objectID": "p1_overview.html#确定选题",
+    "href": "p1_overview.html#确定选题",
+    "title": "课程概览",
+    "section": "确定选题",
+    "text": "确定选题\n\n研究问题\n文献综述\n理论框架（假设及其理由）\n方法设计"
+  },
+  {
+    "objectID": "p1_overview.html#收集数据",
+    "href": "p1_overview.html#收集数据",
+    "title": "课程概览",
+    "section": "收集数据",
+    "text": "收集数据\n\n问卷调查\n二手数据\n官方数据"
+  },
+  {
+    "objectID": "p1_overview.html#数据分析",
+    "href": "p1_overview.html#数据分析",
+    "title": "课程概览",
+    "section": "数据分析",
+    "text": "数据分析\n\n数据清理\n模型建构\n模型选择\n变量选择"
+  },
+  {
+    "objectID": "p1_overview.html#结果展示",
+    "href": "p1_overview.html#结果展示",
+    "title": "课程概览",
+    "section": "结果展示",
+    "text": "结果展示\n\n题目\n结构\n论证\n表达"
+  },
+  {
+    "objectID": "p1_overview.html#量化论文的结构",
+    "href": "p1_overview.html#量化论文的结构",
+    "title": "课程概览",
+    "section": "量化论文的结构",
+    "text": "量化论文的结构\n\nIntroduction\nTheoretical background\nData\nMethod\nResults\nDiscussion(optional)\nConclusions"
+  },
+  {
+    "objectID": "p1_overview.html#课程内容模块",
+    "href": "p1_overview.html#课程内容模块",
+    "title": "课程概览",
+    "section": "课程内容模块",
+    "text": "课程内容模块\n\n问题提出部分的写作\n文献综述部分的写作\n理论框架的写作\n数据分析\n结果呈现部分的写作\n结论部门的写作\n经典论文阅读"
+  },
+  {
+    "objectID": "p1_overview.html#问题提出写作",
+    "href": "p1_overview.html#问题提出写作",
+    "title": "课程概览",
+    "section": "问题提出写作",
+    "text": "问题提出写作\n\n研究问题域的选择\n具体研究问题选择\n具体研究题目的选择"
+  },
+  {
+    "objectID": "p1_overview.html#文献综述写作",
+    "href": "p1_overview.html#文献综述写作",
+    "title": "课程概览",
+    "section": "文献综述写作",
+    "text": "文献综述写作\n\n中外文献检索方法\n文献管理与阅读方法\n文献综述写作"
+  },
+  {
+    "objectID": "p1_overview.html#理论框架的选择与架构",
+    "href": "p1_overview.html#理论框架的选择与架构",
+    "title": "课程概览",
+    "section": "理论框架的选择与架构",
+    "text": "理论框架的选择与架构\n\n研究理论的选择\n研究理论的构建"
+  },
+  {
+    "objectID": "p1_overview.html#数据分析与技术调整",
+    "href": "p1_overview.html#数据分析与技术调整",
+    "title": "课程概览",
+    "section": "数据分析与技术调整",
+    "text": "数据分析与技术调整\n\n数据清理\n模型建构\n模型选择\n变量选择"
+  },
+  {
+    "objectID": "p1_overview.html#结论写作",
+    "href": "p1_overview.html#结论写作",
+    "title": "课程概览",
+    "section": "结论写作",
+    "text": "结论写作\n\n总结基本结论\n概括贡献\n局限与不足"
+  },
+  {
+    "objectID": "p1_overview.html#经典论文阅读",
+    "href": "p1_overview.html#经典论文阅读",
+    "title": "课程概览",
+    "section": "经典论文阅读",
+    "text": "经典论文阅读\n\n一周一篇（7篇）\n主要是因果推断"
+  },
+  {
+    "objectID": "p1_overview.html#中国劳动力动态调查clds",
+    "href": "p1_overview.html#中国劳动力动态调查clds",
+    "title": "课程概览",
+    "section": "中国劳动力动态调查（CLDS）",
+    "text": "中国劳动力动态调查（CLDS）\n中国劳动力动态调查（China Labor-force Dynamic Survey，简称CLDS）通过对中国城市和农村的村居进行两年一次的追踪调查，建立了以劳动力为调查对象的综合性数据库，包含了劳动力个体、家庭和社区三个层次的追踪和横截面数据，可为实证导向的理论研究和政策研究提供高质量的基础数据。目前，CLDS已完成2011年广东省试调查、2012年全国基线调查、2014年追踪调查和2016年追踪调查。"
+  },
+  {
+    "objectID": "p1_overview.html#中国综合社会调查cgss",
+    "href": "p1_overview.html#中国综合社会调查cgss",
+    "title": "课程概览",
+    "section": "中国综合社会调查（CGSS）",
+    "text": "中国综合社会调查（CGSS）\n中国综合社会调查（Chinese General Social Survey，CGSS）始于2003年，是我国最早的全国性、综合性、连续性学术调查项目。CGSS系统、全面的收集社会、社区、家庭、个人多个层次的数据，总结社会变迁的趋势，探讨具有重大科学和现实意义的议题，推动国内科学研究的开放与共享，为国际比较研究提供数据资料，充当多学科的经济与社会数据采集平台"
+  },
+  {
+    "objectID": "p1_overview.html#中国家庭追踪调查cfps",
+    "href": "p1_overview.html#中国家庭追踪调查cfps",
+    "title": "课程概览",
+    "section": "中国家庭追踪调查（CFPS）",
+    "text": "中国家庭追踪调查（CFPS）\n中国家庭追踪调查（China Family Panel Studies，CFPS）旨在通过跟踪收集个体、家庭、社区三个层次的数据，反映中国社会、经济、人口、教育和健康的变迁，为学术研究和公共政策分析提供数据基础。CFPS重点关注中国居民的经济与非经济福利，以及包括经济活动、教育成果、家庭关系与家庭动态、人口迁移、健康等在内的诸多研究主题，是一项全国性、大规模、多学科的社会跟踪调查项目。CFPS样本覆盖25个省/市/自治区，目标样本规模为16000户，调查对象包含样本家户中的全部家庭成员。CFPS在2008、2009两年在北京、上海、广东三地分别开展了初访与追访的测试调查，并于2010年正式开展访问。"
+  },
+  {
+    "objectID": "p1_overview.html#中国教育追踪调查ceps",
+    "href": "p1_overview.html#中国教育追踪调查ceps",
+    "title": "课程概览",
+    "section": "中国教育追踪调查(CEPS)",
+    "text": "中国教育追踪调查(CEPS)\n中国教育追踪调查(China Education Panel Survey, 简写为CEPS)是由中国人民大学中国调查与数据中心设计与实施的、具有全国代表性的大型追踪调查项目，旨在揭示家庭、学校、社区以及宏观社会结构对于个人教育产出的影响，并进一步探究教育产出在个人生命历程中发生作用的过程。 中国教育追踪调查(CEPS)以2013-2014学年为基线，以初中一年级（7年级）和初中三年级（9年级）两个同期群为调查起点，以人口平均受教育水平和流动人口比例为分层变量从全国随机抽取了28个县级单位（县、区、市）作为调查点。调查的执行以学校为基础，在入选的县级单位随机抽取了112所学校、438个班级进行调查，被抽中班级的学生全体入样，基线调查共调查了约2万名学生。"
+  },
+  {
+    "objectID": "p1_overview.html#中国家庭收入调查chip",
+    "href": "p1_overview.html#中国家庭收入调查chip",
+    "title": "课程概览",
+    "section": "中国家庭收入调查（CHIP）",
+    "text": "中国家庭收入调查（CHIP）\n为了追踪中国收入分配的动态情况，中国家庭收入调查（CHIP）已经相继在1989年、1996年、2003年、2008年和2014年进行了五次入户调查。它们分别收集了1988、1995、2002、2007和2013年的收支信息，以及其他家庭和个人信息，分别编号为CHIP1988、CHIP1995、CHIP2002、CHIP2007和CHIP2013。"
+  },
+  {
+    "objectID": "p1_overview.html#中国教育财政家庭调查ciefr-hs",
+    "href": "p1_overview.html#中国教育财政家庭调查ciefr-hs",
+    "title": "课程概览",
+    "section": "中国教育财政家庭调查(CIEFR-HS)",
+    "text": "中国教育财政家庭调查(CIEFR-HS)\n中国教育财政家庭调查（China Institute for Educational Finance Research-Household Survey，CIEFR-HS）是中国教育财政科学研究所开展的全国范围内的抽样调查，旨在收集家庭子女教育选择和支出相关的信息，推动教育财政问题的跨学科研究。2017年第一轮调查覆盖除西藏、新疆和港澳台地区外的29个省（自治区、直辖市），355个 县（区、县级市），1428个村（居）委会，样本规模为40000户。其中0-6岁及16岁以上在校生2.1万人，中小学在校生1.4万人。调查内容包括0-3岁幼儿早教、3-6岁幼儿入园、6-16岁及16岁以上在读情况，以及中小学阶段入学选择、家庭教育支出和政府补贴情况。"
+  },
+  {
+    "objectID": "p1_overview.html#talis",
+    "href": "p1_overview.html#talis",
+    "title": "课程概览",
+    "section": "TALIS",
+    "text": "TALIS\nThe Teaching and Learning International Survey (TALIS) asks teachers and school leaders about working conditions and learning environments at their schools to help countries face diverse challenges."
+  },
+  {
+    "objectID": "p1_overview.html#how-to-use-secondary-data",
+    "href": "p1_overview.html#how-to-use-secondary-data",
+    "title": "课程概览",
+    "section": "How to use secondary data",
+    "text": "How to use secondary data\n\nSampling process\nSample characteristics\nTopic\nVariable\nData structure"
+  },
+  {
+    "objectID": "p1_overview.html#process",
+    "href": "p1_overview.html#process",
+    "title": "课程概览",
+    "section": "Process",
+    "text": "Process\n\nUser manual\nQuestionnaire\nData summary(codebook)\ndata"
+  },
+  {
+    "objectID": "p1_overview.html#exploratory-analysis",
+    "href": "p1_overview.html#exploratory-analysis",
+    "title": "课程概览",
+    "section": "Exploratory analysis",
+    "text": "Exploratory analysis\n\nFrequency\nSummary\nCorrelation -\nData visualization\n\n\n\nseeking truths through facts"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "量化论文写作指导",
+    "section": "",
+    "text": "本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析等展开，以求课程结束，学生完成一篇论文的完整写作过程。"
+  },
+  {
+    "objectID": "syllabus.html#课程目标",
+    "href": "syllabus.html#课程目标",
+    "title": "量化论文写作指导",
+    "section": "课程目标",
+    "text": "课程目标\n\n使学生掌握发现可研究的问题的方法。\n使生掌握中外文文献检索方法与文献综述写作方法。\n使学生掌握理论框架写作\n使学生掌握研究设计部分的写作\n熟悉量化论文结果呈现方法"
+  },
+  {
+    "objectID": "syllabus.html#课程内容",
+    "href": "syllabus.html#课程内容",
+    "title": "量化论文写作指导",
+    "section": "课程内容",
+    "text": "课程内容\n\n研究问题选择\n\n\n研究问题域的选择\n具体研究题目的选择\n问题提出部分的写作\n\n\n文献综述写作\n\n\n中文文献检索要求与方法\n外文文献检索要求与方法\n文献管理与阅读\n\n\n理论框架的选择与架构\n\n\n研究理论的选择\n研究理论的构建\n\n\n研究设计\n\n\n模型选择\n变量选择\n\n\n研究结果呈现\n\n\n描述性结果\n统计分析结\n\n6、定量论文的阅读与写作\n\n定量论文的阅读\n定量论文的写作"
+  },
+  {
+    "objectID": "syllabus.html#授课形式",
+    "href": "syllabus.html#授课形式",
+    "title": "量化论文写作指导",
+    "section": "授课形式",
+    "text": "授课形式\n课程以课堂讨论为主，教师讲授为辅。"
+  },
+  {
+    "objectID": "syllabus.html#考核方式",
+    "href": "syllabus.html#考核方式",
+    "title": "量化论文写作指导",
+    "section": "考核方式",
+    "text": "考核方式\n\n出勤：10%\n课堂表现：30%\n期末论文：40%"
+  },
+  {
+    "objectID": "syllabus.html#课程材料",
+    "href": "syllabus.html#课程材料",
+    "title": "量化论文写作指导",
+    "section": "课程材料",
+    "text": "课程材料\nCunningham, S. (2021). Causal inference: the mixtape. Yale University Press.\nAngrist, J. D., & Keueger, A. B. (1991). Does Compulsory School Attendance Affect Schooling and Earnings? The Quarterly Journal of Economics, 106(4), 979–1014. https://doi.org/10.2307/2937954\nAngrist, J. D., & Lavy, V. (1999). Using Maimonides’ rule to estimate the effect of class size on scholastic achievement. The Quarterly Journal of Economics, 114(2), 533–575. Retrieved from http://qje.oxfordjournals.org/content/114/2/533.short\nBlack, S. E. (1999). Do better schools matter? Parental valuation of elementary education. Quarterly Journal of Economics, 114(2), 577–599. Retrieved from http://qje.oxfordjournals.org/content/114/2/577.short\nKlaauw, W. Van der. (2002). Estimating the Effect of Financial Aid Offers on College Enrollment: A Regression–Discontinuity Approach. International Economic Review, 43(4), 1249–1287. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/1468-2354.t01-1-00055/full"
+  },
+  {
+    "objectID": "syllabus.html#推荐阅读",
+    "href": "syllabus.html#推荐阅读",
+    "title": "量化论文写作指导",
+    "section": "推荐阅读",
+    "text": "推荐阅读\nAngrist, J. D., & Pischke, J. S. (2015). Mastering metrics: The path from cause to effect. Princeton and Oxford: Princeton University Press.\nPearl, J. (2018). The Book of Why: The New Science of Cause and Effect. New York: Basic Books."
+  },
+  {
+    "objectID": "R_self_learning.html",
+    "href": "R_self_learning.html",
+    "title": "R self-learn tutorial",
+    "section": "",
+    "text": "An Introduction to R\nR for Data Science\nIntroduction to Data Science"
+  },
+  {
+    "objectID": "R_self_learning.html#图形可视化",
+    "href": "R_self_learning.html#图形可视化",
+    "title": "R self-learn tutorial",
+    "section": "图形可视化",
+    "text": "图形可视化\n\nggplot2: Elegant Graphics for Data Analysis 系统介绍如何使用ggplot2做图\nFundamentals of Data Visualization\n\n从美学的角度讲如何制作和设计图\n\nR Graphics Cookbook, 2nd edition\n\n以具体问题出发手把手教如何做图"
+  },
+  {
+    "objectID": "R_self_learning.html#写作工具",
+    "href": "R_self_learning.html#写作工具",
+    "title": "R self-learn tutorial",
+    "section": "写作工具",
+    "text": "写作工具\n使用rmarkdown做ppt，写文章，写书，做网站等\n\nR Markdown: The Definitive Guide\nR Markdown Cookbook\nbookdown: Authoring Books and Technical Documents with R Markdown\nblogdown: Creating Websites with R Markdown"
+  },
+  {
+    "objectID": "R_self_learning.html#版本控制",
+    "href": "R_self_learning.html#版本控制",
+    "title": "R self-learn tutorial",
+    "section": "版本控制",
+    "text": "版本控制\n\nHappy Git and GitHub for the useR"
+  },
+  {
+    "objectID": "R_self_learning.html#learning-statistics-with-r",
+    "href": "R_self_learning.html#learning-statistics-with-r",
+    "title": "R self-learn tutorial",
+    "section": "Learning statistics with R",
+    "text": "Learning statistics with R\n\nBeyond Multiple Linear Regression\nStatistical Inference via Data Science\nLearning statistics with R"
+  },
+  {
+    "objectID": "R_self_learning.html#online-courses",
+    "href": "R_self_learning.html#online-courses",
+    "title": "R self-learn tutorial",
+    "section": "Online Courses",
+    "text": "Online Courses\n\nStatistics and R\nStatistics with R Specialization"
+  }
+]

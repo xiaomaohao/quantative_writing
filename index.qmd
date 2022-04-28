@@ -24,6 +24,8 @@ title: "量化研究论文写作指导"
 
 -   讨论结论
 
+-   [DAG概论](p3_DAG.qmd)
+
 ## 课程材料
 
 -   [R 自学路线图](R_self_learning.qmd)
@@ -31,4 +33,3 @@ title: "量化研究论文写作指导"
 -   [STATA自学路线图](Stata_self_learning.qmd)
 
 -   [量化研究方法自学](the_hard_way.qmd)
-

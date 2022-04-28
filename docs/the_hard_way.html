@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="generator" content="quarto-0.9.228">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>quantative_writing - The hard way to self-learn quantitative method</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+
+  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="site_libs/quarto-nav/headroom.min.js"></script>
+  <script src="site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="./">
+  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="site_libs/quarto-search/fuse.min.js"></script>
+  <script src="site_libs/quarto-search/quarto-search.js"></script>
+  <script src="site_libs/quarto-html/quarto.js"></script>
+  <script src="site_libs/quarto-html/popper.min.js"></script>
+  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="site_libs/quarto-html/anchor.min.js"></script>
+  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "navbar",
+    "copy-button": false,
+    "collapse-after": 3,
+    "panel-placement": "end",
+    "type": "overlay",
+    "limit": 20,
+    "language": {
+      "search-no-results-text": "No results",
+      "search-matching-documents-text": "matching documents",
+      "search-copy-link-title": "Copy link to search",
+      "search-hide-matches-text": "Hide additional matches",
+      "search-more-match-text": "more match in this document",
+      "search-more-matches-text": "more matches in this document",
+      "search-clear-button-title": "Clear",
+      "search-detached-cancel-button-title": "Cancel",
+      "search-submit-button-title": "Submit"
+    }
+  }</script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="nav-fixed">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">quantative_writing</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">简介</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+<h2 id="toc-title">On this page</h2>
+<ul>
+<li><a href="#basic-level" id="toc-basic-level" class="nav-link active" data-scroll-target="#basic-level">BASIC LEVEL</a>
+<ul class="collapse">
+<li><a href="#probability" id="toc-probability" class="nav-link" data-scroll-target="#probability">Probability</a></li>
+<li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">Statistics</a></li>
+<li><a href="#linear-algebra" id="toc-linear-algebra" class="nav-link" data-scroll-target="#linear-algebra">Linear algebra</a></li>
+<li><a href="#r-practise" id="toc-r-practise" class="nav-link" data-scroll-target="#r-practise">R practise</a></li>
+</ul></li>
+<li><a href="#second-level" id="toc-second-level" class="nav-link" data-scroll-target="#second-level">SECOND LEVEL</a></li>
+<li><a href="#causal-inference" id="toc-causal-inference" class="nav-link" data-scroll-target="#causal-inference">CAUSAL INFERENCE</a>
+<ul class="collapse">
+<li><a href="#econometric" id="toc-econometric" class="nav-link" data-scroll-target="#econometric">Econometric</a></li>
+<li><a href="#epistemology" id="toc-epistemology" class="nav-link" data-scroll-target="#epistemology">Epistemology</a></li>
+<li><a href="#computer-science" id="toc-computer-science" class="nav-link" data-scroll-target="#computer-science">computer science</a></li>
+</ul></li>
+<li><a href="#others" id="toc-others" class="nav-link" data-scroll-target="#others">OTHERS</a>
+<ul class="collapse">
+<li><a href="#空间分析" id="toc-空间分析" class="nav-link" data-scroll-target="#空间分析">空间分析</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default">
+
+<div class="quarto-title"><h1 class="title display-7">The hard way to self-learn quantitative method</h1></div></header>
+
+<section id="basic-level" class="level1">
+<h1>BASIC LEVEL</h1>
+<section id="probability" class="level2">
+<h2 class="anchored" data-anchor-id="probability">Probability</h2>
+<ul>
+<li><a href="https://projects.iq.harvard.edu/stat110/home">Introduction to Probability</a></li>
+</ul>
+</section>
+<section id="statistics" class="level2">
+<h2 class="anchored" data-anchor-id="statistics">Statistics</h2>
+<ul>
+<li><a href="https://openintro-ims.netlify.app/">Introduction to Modern Statistics</a></li>
+</ul>
+</section>
+<section id="linear-algebra" class="level2">
+<h2 class="anchored" data-anchor-id="linear-algebra">Linear algebra</h2>
+<ul>
+<li><a href="https://math.mit.edu/~gs/linearalgebra/">Introduction to Linear Algebra, 2016</a></li>
+</ul>
+</section>
+<section id="r-practise" class="level2">
+<h2 class="anchored" data-anchor-id="r-practise">R practise</h2>
+<ul>
+<li><a href="https://bookdown.org/ripberjt/qrmbook/">Quantitative Research Methods for Political Science, Public Policy and Public Administration: 4th Edition With Applications in R</a></li>
+</ul>
+</section>
+</section>
+<section id="second-level" class="level1">
+<h1>SECOND LEVEL</h1>
+<ul>
+<li><p><a href="https://avehtari.github.io/ROS-Examples/index.html">Regression and Other Stories</a></p></li>
+<li><p><a href="https://xcelab.net/rm/statistical-rethinking/">Statistical Rethinking: A Bayesian Course with Examples in R and Sta</a></p></li>
+<li><p><a href="https://doi.org/10.2307/2988417.">Gelman, Andrew, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin. Bayesian Data Analysis. The CRC Press, 2014.</a></p></li>
+</ul>
+</section>
+<section id="causal-inference" class="level1">
+<h1>CAUSAL INFERENCE</h1>
+<section id="econometric" class="level2">
+<h2 class="anchored" data-anchor-id="econometric">Econometric</h2>
+<ul>
+<li><p><a href="https://www.masteringmetrics.com/">Angrist, Joshua D., and Jörn-Steffen Pischke. Mastering Metrics: The Path from Cause to Effect, 2015.</a></p></li>
+<li><p><a href="https://www.mostlyharmlesseconometrics.com/">Joshua D. Angrist and Jörn-Steffen Pischke, Mostly Harmless Econometrics</a></p></li>
+<li><p><a href="https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884">Imbens, Guido W., and Donald B. Rubin. Causal Inference for Statistics, Social, and Bio-medical Sciences: An Introduction. New York: Cambridge University Press, 2015.</a></p></li>
+<li><p><a href="https://mixtape.scunning.com/">Cunningham, Scott. Causal Inference: The Mixtape</a></p></li>
+</ul>
+</section>
+<section id="epistemology" class="level2">
+<h2 class="anchored" data-anchor-id="epistemology">Epistemology</h2>
+<ul>
+<li><p><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/">Causal Inference: What If</a></p></li>
+<li><p><a href="https://doi.org/10.1017/CBO9781107587991">Morgan, Stephen L., and Christopher Winship. Counterfactuals and Causal Inference: Methods and Principles for Social Research, 2014.</a></p></li>
+<li><p><a href="https://www.amazon.com/Explanation-Causal-Inference-Mediation-Interaction/dp/0199325871">VanderWeele, Tyler. Explanation in Causal Inference, 2015.</a></p></li>
+</ul>
+</section>
+<section id="computer-science" class="level2">
+<h2 class="anchored" data-anchor-id="computer-science">computer science</h2>
+<ul>
+<li><p><a href="https://doi.org/10.1090/noti1912">Pearl, Judea. The Book of Why: The New Science of Cause and Effect. Basic Books. New York, 2018.</a></p></li>
+<li><p><a href="https://doi.org/10.1017/CBO9780511803161">Pearl, Judea. Causality: Models, Reasoning, and Inference, Second Edition. Second Edition, 2009.</a></p></li>
+<li><p><a href="https://doi.org/10.1097/00001888-198611000-00007">Pearl, Judea, Madelyn Glymour, and Nicholas P. Jewell. Causal Inference in Statistics: A Primer. Wiley, 2016.</a></p></li>
+</ul>
+</section>
+</section>
+<section id="others" class="level1">
+<h1>OTHERS</h1>
+<ul>
+<li><p><a href="https://doi.org/10.4135/9781446289013.n11">Kloke, John, and Joseph W. McKean. Nonparametric Statistical Methods Using R. Key Concepts in Critical Management Studies. CRC press, 2015</a>.</p></li>
+<li><p><a href="https://doi.org/10.1201/9780203738535">Wood, Simon N. Generalized Additive Models. CRC, 2017.</a>.</p></li>
+</ul>
+<section id="空间分析" class="level2">
+<h2 class="anchored" data-anchor-id="空间分析">空间分析</h2>
+<ul>
+<li><a href="https://geocompr.robinlovelace.net/">Geocomputation with R</a></li>
+<li><a href="https://keen-swartz-3146c4.netlify.app/">Spatial Data Science with applications in R</a></li>
+<li><a href="http://book.spatstat.org/">Spatial Point Patterns:Methodology and Applications with R</a></li>
+<li><a href="http://132.72.155.230:3838/r/index.html">Introduction to Spatial Data Programming with R</a></li>
+<li><a href="https://spatial-microsim-book.robinlovelace.net/">Spatial Microsimulation with R</a></li>
+</ul>
+
+
+
+</section>
+</section>
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    setTimeout(function() {
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+</body></html>
