@@ -112,6 +112,55 @@
     "text": "DAG的作用\nDAG是一种很重要的表达工具。它的功能主要表现在以下方面：第一，表达理论模型，dag所代表的各种因素之间的关系与无关系，是我们对一个现象的发生与影响的种种假设；因此，他可以很好地表达我们的理论预设；第二，DAG可以有利于我们找到我们关心的一对因果关系的识别策略（identification strategies).比如控制哪些变量需要控制，哪些变量不需要控制，如果控制一些变量会带来哪些后果。\nDAG的局限\n无法表达调节效应，无法表达同时效应，即A作用于B的同时，b也作用于A，无法表达逆向因果效应。\n对一个问题的分析，需要使用不同来源的数据，不同的方法，最后可能得到一个一致的结果。\n\n因果推断的四个层次\n第一，完全的独立性假设，符合这一条件的只有随机实验；\n第二，条件独立性假设，基于观测变量的独立性假设，selection on the observed, 识别策略会涉及regression, matching, weighting, stratification等策略\n第三，非观测变量的选择性模型，selection on the unobserved, 这时候的识别策略会用到instrumental variable, regression discontinuity, difference in difference, fixed effect， front-door strategy.\n第四，bounds, sensitivity analysis.\n\n\n现在还比较疑惑的地方\n\npotential outcome framework and DAG\nfixed effect model解决了什么问题？\nBayesian inference\nmixed effect model的好处在哪？"
   },
   {
+    "objectID": "p5_research_design.html#确定研究类型",
+    "href": "p5_research_design.html#确定研究类型",
+    "title": "research_design",
+    "section": "确定研究类型",
+    "text": "确定研究类型\n\n描述性研究\n相关性研究\n因果性研究"
+  },
+  {
+    "objectID": "p5_research_design.html#描述性研究设计",
+    "href": "p5_research_design.html#描述性研究设计",
+    "title": "research_design",
+    "section": "描述性研究设计",
+    "text": "描述性研究设计\n\n关注对象\n测量方法\n分群方法"
+  },
+  {
+    "objectID": "p5_research_design.html#相关性研究一",
+    "href": "p5_research_design.html#相关性研究一",
+    "title": "research_design",
+    "section": "相关性研究一",
+    "text": "相关性研究一\n\nT检验\nANOVA\n卡方检验\n相关系数"
+  },
+  {
+    "objectID": "p5_research_design.html#相关性研究二",
+    "href": "p5_research_design.html#相关性研究二",
+    "title": "research_design",
+    "section": "相关性研究二",
+    "text": "相关性研究二\n\n虚拟变量\n顺序变量\n计数变量\n分类变量\n连续变量\n事件变量"
+  },
+  {
+    "objectID": "p5_research_design.html#相关性研究二-1",
+    "href": "p5_research_design.html#相关性研究二-1",
+    "title": "research_design",
+    "section": "相关性研究二",
+    "text": "相关性研究二\n\nSimple regression\nLogistic regression\nOrdered logistic regression\nMultinomial logistic regression\nCount regression\nSurvival"
+  },
+  {
+    "objectID": "p5_research_design.html#因果研究的四个步骤from-mostly-harmless",
+    "href": "p5_research_design.html#因果研究的四个步骤from-mostly-harmless",
+    "title": "research_design",
+    "section": "因果研究的四个步骤(from “mostly harmless”)",
+    "text": "因果研究的四个步骤(from “mostly harmless”)\n\n研究什么关系(relationship)\n确定该关系的实验方法是怎样的(experiment design)\n确定识别策略(identification strategy)\n确定统计推断方法(inference)"
+  },
+  {
+    "objectID": "p5_research_design.html#因果分析方法",
+    "href": "p5_research_design.html#因果分析方法",
+    "title": "research_design",
+    "section": "因果分析方法",
+    "text": "因果分析方法\n\nRCT\nregression/matching/weighting\nDID\nRD\nIV\nFDC"
+  },
+  {
     "objectID": "p2_question.html#什么问题是一个好的研究问题",
     "href": "p2_question.html#什么问题是一个好的研究问题",
     "title": "研究问题选择",
@@ -249,7 +298,7 @@
     "href": "index.html#课程材料",
     "title": "量化研究论文写作指导",
     "section": "课程材料",
-    "text": "课程材料\n\nR 自学路线图\nSTATA自学路线图\n量化研究方法自学"
+    "text": "课程材料\n\nDAG概论\n控制变量\n自然实验\nR 自学路线图\nSTATA自学路线图\n量化研究方法自学"
   },
   {
     "objectID": "about.html",
@@ -259,144 +308,207 @@
     "text": "这是”量化研究论文写作指导”课程网站，内容包括课程大纲、课程课件和辅助材料。本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析等展开，以求课程结束，学生完成一篇论文的完整写作过程。"
   },
   {
-    "objectID": "p3_DAG.html#dag",
-    "href": "p3_DAG.html#dag",
+    "objectID": "aux1_DAG.html#dag",
+    "href": "aux1_DAG.html#dag",
     "title": "DAG and identification",
     "section": "DAG",
     "text": "DAG\nA DAG displays assumptions about the relationship between variables (often called nodes). The assumptions we make take the form of lines (or edges) going from one node to another. These edges are directed, which means to say that they have a single arrowhead indicating their effect."
   },
   {
-    "objectID": "p3_DAG.html#bidirection",
-    "href": "p3_DAG.html#bidirection",
+    "objectID": "aux1_DAG.html#bidirection",
+    "href": "aux1_DAG.html#bidirection",
     "title": "DAG and identification",
     "section": "bidirection",
     "text": "bidirection"
   },
   {
-    "objectID": "p3_DAG.html#bidirection-confounder",
-    "href": "p3_DAG.html#bidirection-confounder",
+    "objectID": "aux1_DAG.html#bidirection-confounder",
+    "href": "aux1_DAG.html#bidirection-confounder",
     "title": "DAG and identification",
     "section": "bidirection = confounder",
     "text": "bidirection = confounder\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:"
   },
   {
-    "objectID": "p3_DAG.html#acyclic",
-    "href": "p3_DAG.html#acyclic",
+    "objectID": "aux1_DAG.html#acyclic",
+    "href": "aux1_DAG.html#acyclic",
     "title": "DAG and identification",
     "section": "acyclic",
     "text": "acyclic"
   },
   {
-    "objectID": "p3_DAG.html#mediation",
-    "href": "p3_DAG.html#mediation",
+    "objectID": "aux1_DAG.html#mediation",
+    "href": "aux1_DAG.html#mediation",
     "title": "DAG and identification",
     "section": "mediation",
     "text": "mediation"
   },
   {
-    "objectID": "p3_DAG.html#confounder",
-    "href": "p3_DAG.html#confounder",
+    "objectID": "aux1_DAG.html#confounder",
+    "href": "aux1_DAG.html#confounder",
     "title": "DAG and identification",
     "section": "confounder",
     "text": "confounder"
   },
   {
-    "objectID": "p3_DAG.html#collider",
-    "href": "p3_DAG.html#collider",
+    "objectID": "aux1_DAG.html#collider",
+    "href": "aux1_DAG.html#collider",
     "title": "DAG and identification",
     "section": "collider",
     "text": "collider"
   },
   {
-    "objectID": "p3_DAG.html#collider-1",
-    "href": "p3_DAG.html#collider-1",
+    "objectID": "aux1_DAG.html#collider-1",
+    "href": "aux1_DAG.html#collider-1",
     "title": "DAG and identification",
     "section": "collider",
     "text": "collider"
   },
   {
-    "objectID": "p3_DAG.html#collider-control-or-not-control",
-    "href": "p3_DAG.html#collider-control-or-not-control",
+    "objectID": "aux1_DAG.html#collider-control-or-not-control",
+    "href": "aux1_DAG.html#collider-control-or-not-control",
     "title": "DAG and identification",
     "section": "collider, control or not control",
     "text": "collider, control or not control"
   },
   {
-    "objectID": "p3_DAG.html#collider-control-or-not-control-1",
-    "href": "p3_DAG.html#collider-control-or-not-control-1",
+    "objectID": "aux1_DAG.html#collider-control-or-not-control-1",
+    "href": "aux1_DAG.html#collider-control-or-not-control-1",
     "title": "DAG and identification",
     "section": "collider, control or not control",
     "text": "collider, control or not control"
   },
   {
-    "objectID": "p3_DAG.html#descendant-of-colliders",
-    "href": "p3_DAG.html#descendant-of-colliders",
+    "objectID": "aux1_DAG.html#descendant-of-colliders",
+    "href": "aux1_DAG.html#descendant-of-colliders",
     "title": "DAG and identification",
     "section": "descendant of colliders",
     "text": "descendant of colliders"
   },
   {
-    "objectID": "p3_DAG.html#mediation-1",
-    "href": "p3_DAG.html#mediation-1",
+    "objectID": "aux1_DAG.html#mediation-1",
+    "href": "aux1_DAG.html#mediation-1",
     "title": "DAG and identification",
     "section": "mediation",
     "text": "mediation"
   },
   {
-    "objectID": "p3_DAG.html#complicated",
-    "href": "p3_DAG.html#complicated",
+    "objectID": "aux1_DAG.html#complicated",
+    "href": "aux1_DAG.html#complicated",
     "title": "DAG and identification",
     "section": "complicated",
     "text": "complicated"
   },
   {
-    "objectID": "p3_DAG.html#parents",
-    "href": "p3_DAG.html#parents",
+    "objectID": "aux1_DAG.html#parents",
+    "href": "aux1_DAG.html#parents",
     "title": "DAG and identification",
     "section": "parents",
     "text": "parents"
   },
   {
-    "objectID": "p3_DAG.html#ancestors",
-    "href": "p3_DAG.html#ancestors",
+    "objectID": "aux1_DAG.html#ancestors",
+    "href": "aux1_DAG.html#ancestors",
     "title": "DAG and identification",
     "section": "ancestors",
     "text": "ancestors"
   },
   {
-    "objectID": "p3_DAG.html#descendants",
-    "href": "p3_DAG.html#descendants",
+    "objectID": "aux1_DAG.html#descendants",
+    "href": "aux1_DAG.html#descendants",
     "title": "DAG and identification",
     "section": "descendants",
     "text": "descendants"
   },
   {
-    "objectID": "p3_DAG.html#path",
-    "href": "p3_DAG.html#path",
+    "objectID": "aux1_DAG.html#path",
+    "href": "aux1_DAG.html#path",
     "title": "DAG and identification",
     "section": "path",
     "text": "path"
   },
   {
-    "objectID": "p3_DAG.html#adjuestment-set",
-    "href": "p3_DAG.html#adjuestment-set",
+    "objectID": "aux1_DAG.html#adjuestment-set",
+    "href": "aux1_DAG.html#adjuestment-set",
     "title": "DAG and identification",
     "section": "adjuestment set",
     "text": "adjuestment set"
   },
   {
-    "objectID": "p3_DAG.html#collider-bias",
-    "href": "p3_DAG.html#collider-bias",
+    "objectID": "aux1_DAG.html#collider-bias",
+    "href": "aux1_DAG.html#collider-bias",
     "title": "DAG and identification",
     "section": "collider bias",
     "text": "collider bias"
   },
   {
-    "objectID": "p3_DAG.html#ajustment",
-    "href": "p3_DAG.html#ajustment",
+    "objectID": "aux1_DAG.html#ajustment",
+    "href": "aux1_DAG.html#ajustment",
     "title": "DAG and identification",
     "section": "ajustment",
     "text": "ajustment"
+  },
+  {
+    "objectID": "p4_theorizing.html#理论框架是什么",
+    "href": "p4_theorizing.html#理论框架是什么",
+    "title": "Finding Theory",
+    "section": "理论框架是什么",
+    "text": "理论框架是什么\n\n是否有因果效应\n影响机制（中介效应）\n影响机制（交互效应）\n其它影响因子控制变量"
+  },
+  {
+    "objectID": "p4_theorizing.html#如何发现理论",
+    "href": "p4_theorizing.html#如何发现理论",
+    "title": "Finding Theory",
+    "section": "如何发现理论",
+    "text": "如何发现理论\n\n移植：一个领域到另一个领域\n适用：从原理到情境\n构建：基于经验"
+  },
+  {
+    "objectID": "p4_theorizing.html#从理论到方法",
+    "href": "p4_theorizing.html#从理论到方法",
+    "title": "Finding Theory",
+    "section": "从理论到方法",
+    "text": "从理论到方法\n\n确定影响的机制\n实验\n自然实验\n控制变量选择"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#experiment",
+    "href": "aux3_natural_experiment.html#experiment",
+    "title": "自然实验",
+    "section": "experiment",
+    "text": "experiment"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#matching",
+    "href": "aux3_natural_experiment.html#matching",
+    "title": "自然实验",
+    "section": "matching",
+    "text": "matching"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#instrumental-variable",
+    "href": "aux3_natural_experiment.html#instrumental-variable",
+    "title": "自然实验",
+    "section": "instrumental variable",
+    "text": "instrumental variable"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#front-door-criterion",
+    "href": "aux3_natural_experiment.html#front-door-criterion",
+    "title": "自然实验",
+    "section": "front-door criterion",
+    "text": "front-door criterion"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#regression-discontinuity",
+    "href": "aux3_natural_experiment.html#regression-discontinuity",
+    "title": "自然实验",
+    "section": "regression discontinuity",
+    "text": "regression discontinuity"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#difference-in-difference",
+    "href": "aux3_natural_experiment.html#difference-in-difference",
+    "title": "自然实验",
+    "section": "difference in difference",
+    "text": "difference in difference"
   },
   {
     "objectID": "p1_overview.html#本节内容",
@@ -662,14 +774,14 @@
     "href": "syllabus.html#课程目标",
     "title": "量化论文写作指导",
     "section": "课程目标",
-    "text": "课程目标\n\n使学生掌握发现可研究的问题的方法。\n使生掌握中外文文献检索方法与文献综述写作方法。\n使学生掌握理论框架写作\n使学生掌握研究设计部分的写作\n熟悉量化论文结果呈现方法"
+    "text": "课程目标\n\n使学生掌握发现可研究的问题的方法。\n掌握中外文文献检索方法与文献综述写作方法。\n使学生掌握理论框架写作\n使学生掌握研究设计部分的写作\n掌握量化论文结果呈现方法"
   },
   {
     "objectID": "syllabus.html#课程内容",
     "href": "syllabus.html#课程内容",
     "title": "量化论文写作指导",
     "section": "课程内容",
-    "text": "课程内容\n\n研究问题选择\n\n\n研究问题域的选择\n具体研究题目的选择\n问题提出部分的写作\n\n\n文献综述写作\n\n\n中文文献检索要求与方法\n外文文献检索要求与方法\n文献管理与阅读\n\n\n理论框架的选择与架构\n\n\n研究理论的选择\n研究理论的构建\n\n\n研究设计\n\n\n模型选择\n变量选择\n\n\n研究结果呈现\n\n\n描述性结果\n统计分析结\n\n6、定量论文的阅读与写作\n\n定量论文的阅读\n定量论文的写作"
+    "text": "课程内容\n\n研究问题选择\n\n\n研究问题域的选择\n具体研究题目的选择\n问题提出部分的写作\n\n\n文献综述写作\n\n\n中文文献检索要求与方法\n外文文献检索要求与方法\n文献管理与阅读\n\n\n理论框架的选择与架构\n\n\n研究理论的选择\n研究理论的构建\n\n\n研究设计\n\n\n模型选择\n变量选择\n\n\n研究结果呈现\n\n\n描述性结果\n统计分析结果\n\n6、定量论文的阅读与写作\n\n定量论文的阅读\n定量论文的写作"
   },
   {
     "objectID": "syllabus.html#授课形式",
@@ -698,6 +810,279 @@
     "title": "量化论文写作指导",
     "section": "推荐阅读",
     "text": "推荐阅读\nAngrist, J. D., & Pischke, J. S. (2015). Mastering metrics: The path from cause to effect. Princeton and Oxford: Princeton University Press.\nPearl, J. (2018). The Book of Why: The New Science of Cause and Effect. New York: Basic Books."
+  },
+  {
+    "objectID": "aux2_controls.html#model1-graph",
+    "href": "aux2_controls.html#model1-graph",
+    "title": "what to control",
+    "section": "model1 graph",
+    "text": "model1 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model1-simulation",
+    "href": "aux2_controls.html#model1-simulation",
+    "title": "what to control",
+    "section": "model1 simulation",
+    "text": "model1 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.013 \n    −0.018 \n  \n  \n     \n    (0.012) \n    (0.010) \n  \n  \n    x \n    1.506 \n    1.000 \n  \n  \n     \n    (0.009) \n    (0.010) \n  \n  \n    z \n     \n    1.011 \n  \n  \n     \n     \n    (0.014) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.747 \n    0.833 \n  \n  \n    R2 Adj. \n    0.747 \n    0.833 \n  \n  \n    AIC \n    32520.6 \n    28392.8 \n  \n  \n    BIC \n    32542.2 \n    28421.6 \n  \n  \n    Log.Lik. \n    −16257.276 \n    −14192.377 \n  \n  \n    F \n    29550.260 \n    24883.437 \n  \n  \n    RMSE \n    1.23 \n    1.00"
+  },
+  {
+    "objectID": "aux2_controls.html#model2-graph",
+    "href": "aux2_controls.html#model2-graph",
+    "title": "what to control",
+    "section": "model2 graph",
+    "text": "model2 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model2-simulation",
+    "href": "aux2_controls.html#model2-simulation",
+    "title": "what to control",
+    "section": "model2 simulation",
+    "text": "model2 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.001 \n    −0.004 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    x \n    1.341 \n    0.995 \n  \n  \n     \n    (0.007) \n    (0.012) \n  \n  \n    z \n     \n    0.519 \n  \n  \n     \n     \n    (0.015) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.763 \n    0.788 \n  \n  \n    R2 Adj. \n    0.763 \n    0.788 \n  \n  \n    AIC \n    33642.8 \n    32530.4 \n  \n  \n    BIC \n    33664.5 \n    32559.3 \n  \n  \n    Log.Lik. \n    −16818.415 \n    −16261.218 \n  \n  \n    F \n    32227.196 \n    18600.617 \n  \n  \n    RMSE \n    1.30 \n    1.23"
+  },
+  {
+    "objectID": "aux2_controls.html#model3-graph",
+    "href": "aux2_controls.html#model3-graph",
+    "title": "what to control",
+    "section": "model3 graph",
+    "text": "model3 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model3-simulation",
+    "href": "aux2_controls.html#model3-simulation",
+    "title": "what to control",
+    "section": "model3 simulation",
+    "text": "model3 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.006 \n    0.011 \n  \n  \n     \n    (0.016) \n    (0.010) \n  \n  \n    x \n    1.482 \n    0.985 \n  \n  \n     \n    (0.011) \n    (0.008) \n  \n  \n    z \n     \n    0.999 \n  \n  \n     \n     \n    (0.008) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.641 \n    0.859 \n  \n  \n    R2 Adj. \n    0.641 \n    0.859 \n  \n  \n    AIC \n    37422.4 \n    28091.6 \n  \n  \n    BIC \n    37444.0 \n    28120.5 \n  \n  \n    Log.Lik. \n    −18708.196 \n    −14041.812 \n  \n  \n    F \n    17858.071 \n    30414.558 \n  \n  \n    RMSE \n    1.57 \n    0.99"
+  },
+  {
+    "objectID": "aux2_controls.html#model4-graph",
+    "href": "aux2_controls.html#model4-graph",
+    "title": "what to control",
+    "section": "model4 graph",
+    "text": "model4 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model4-simulation",
+    "href": "aux2_controls.html#model4-simulation",
+    "title": "what to control",
+    "section": "model4 simulation",
+    "text": "model4 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.006 \n    0.011 \n  \n  \n     \n    (0.016) \n    (0.014) \n  \n  \n    x \n    1.494 \n    0.996 \n  \n  \n     \n    (0.011) \n    (0.014) \n  \n  \n    z \n     \n    1.002 \n  \n  \n     \n     \n    (0.020) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.637 \n    0.710 \n  \n  \n    R2 Adj. \n    0.637 \n    0.710 \n  \n  \n    AIC \n    37547.6 \n    35298.6 \n  \n  \n    BIC \n    37569.2 \n    35327.5 \n  \n  \n    Log.Lik. \n    −18770.802 \n    −17645.308 \n  \n  \n    F \n    17557.743 \n    12255.820 \n  \n  \n    RMSE \n    1.58 \n    1.41"
+  },
+  {
+    "objectID": "aux2_controls.html#model5-graph",
+    "href": "aux2_controls.html#model5-graph",
+    "title": "what to control",
+    "section": "model5 graph",
+    "text": "model5 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model5-simulation",
+    "href": "aux2_controls.html#model5-simulation",
+    "title": "what to control",
+    "section": "model5 simulation",
+    "text": "model5 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.002 \n    0.004 \n  \n  \n     \n    (0.016) \n    (0.016) \n  \n  \n    x \n    1.331 \n    1.007 \n  \n  \n     \n    (0.009) \n    (0.016) \n  \n  \n    z \n     \n    0.484 \n  \n  \n     \n     \n    (0.019) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.668 \n    0.688 \n  \n  \n    R2 Adj. \n    0.668 \n    0.688 \n  \n  \n    AIC \n    38019.4 \n    37408.4 \n  \n  \n    BIC \n    38041.1 \n    37437.2 \n  \n  \n    Log.Lik. \n    −19006.715 \n    −18700.192 \n  \n  \n    F \n    20113.108 \n    11007.306 \n  \n  \n    RMSE \n    1.62 \n    1.57"
+  },
+  {
+    "objectID": "aux2_controls.html#model6-graph",
+    "href": "aux2_controls.html#model6-graph",
+    "title": "what to control",
+    "section": "model6 graph",
+    "text": "model6 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model6-simulation",
+    "href": "aux2_controls.html#model6-simulation",
+    "title": "what to control",
+    "section": "model6 simulation",
+    "text": "model6 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.018 \n    0.012 \n  \n  \n     \n    (0.019) \n    (0.014) \n  \n  \n    x \n    1.495 \n    1.006 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    z \n     \n    1.011 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.554 \n    0.748 \n  \n  \n    R2 Adj. \n    0.554 \n    0.748 \n  \n  \n    AIC \n    41049.9 \n    35342.2 \n  \n  \n    BIC \n    41071.6 \n    35371.0 \n  \n  \n    Log.Lik. \n    −20521.963 \n    −17667.083 \n  \n  \n    F \n    12419.215 \n    14838.680 \n  \n  \n    RMSE \n    1.88 \n    1.42"
+  },
+  {
+    "objectID": "aux2_controls.html#model7-graph",
+    "href": "aux2_controls.html#model7-graph",
+    "title": "what to control",
+    "section": "model7 graph",
+    "text": "model7 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#mdoel7-simulation",
+    "href": "aux2_controls.html#mdoel7-simulation",
+    "title": "what to control",
+    "section": "mdoel7 simulation",
+    "text": "mdoel7 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.012 \n    0.038 \n  \n  \n     \n    (0.041) \n    (0.033) \n  \n  \n    x \n    0.946 \n    1.732 \n  \n  \n     \n    (0.030) \n    (0.026) \n  \n  \n    z \n     \n    −1.591 \n  \n  \n     \n     \n    (0.021) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.093 \n    0.427 \n  \n  \n    R2 Adj. \n    0.093 \n    0.427 \n  \n  \n    AIC \n    56663.7 \n    52069.4 \n  \n  \n    BIC \n    56685.3 \n    52098.2 \n  \n  \n    Log.Lik. \n    −28328.847 \n    −26030.693 \n  \n  \n    F \n    1026.989 \n    3729.602 \n  \n  \n    RMSE \n    4.11 \n    3.27"
+  },
+  {
+    "objectID": "aux2_controls.html#model8-graph",
+    "href": "aux2_controls.html#model8-graph",
+    "title": "what to control",
+    "section": "model8 graph",
+    "text": "model8 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model8-simulation",
+    "href": "aux2_controls.html#model8-simulation",
+    "title": "what to control",
+    "section": "model8 simulation",
+    "text": "model8 simulation\n\n\nunadjusted.x   adjusted.x \n    1.000056     1.000125"
+  },
+  {
+    "objectID": "aux2_controls.html#model9-graph",
+    "href": "aux2_controls.html#model9-graph",
+    "title": "what to control",
+    "section": "model9 graph",
+    "text": "model9 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model-9-simulation",
+    "href": "aux2_controls.html#model-9-simulation",
+    "title": "what to control",
+    "section": "model 9 simulation",
+    "text": "model 9 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9999515    1.0001439"
+  },
+  {
+    "objectID": "aux2_controls.html#model10-graph",
+    "href": "aux2_controls.html#model10-graph",
+    "title": "what to control",
+    "section": "model10 graph",
+    "text": "model10 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model10-simulation",
+    "href": "aux2_controls.html#model10-simulation",
+    "title": "what to control",
+    "section": "model10 simulation",
+    "text": "model10 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.004 \n    −0.018 \n  \n  \n     \n    (0.021) \n    (0.017) \n  \n  \n    x \n    1.348 \n    1.995 \n  \n  \n     \n    (0.008) \n    (0.012) \n  \n  \n    z \n     \n    −1.957 \n  \n  \n     \n     \n    (0.029) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.723 \n    0.809 \n  \n  \n    R2 Adj. \n    0.723 \n    0.809 \n  \n  \n    AIC \n    42767.4 \n    39060.0 \n  \n  \n    BIC \n    42789.0 \n    39088.8 \n  \n  \n    Log.Lik. \n    −21380.690 \n    −19526.001 \n  \n  \n    F \n    26149.704 \n    21189.568 \n  \n  \n    RMSE \n    2.05 \n    1.71"
+  },
+  {
+    "objectID": "aux2_controls.html#model11-graph",
+    "href": "aux2_controls.html#model11-graph",
+    "title": "what to control",
+    "section": "model11 graph",
+    "text": "model11 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model11-simulation",
+    "href": "aux2_controls.html#model11-simulation",
+    "title": "what to control",
+    "section": "model11 simulation",
+    "text": "model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.013 \n    −0.012 \n  \n  \n     \n    (0.014) \n    (0.010) \n  \n  \n    x \n    0.993 \n    0.008 \n  \n  \n     \n    (0.014) \n    (0.014) \n  \n  \n    z \n     \n    1.005 \n  \n  \n     \n     \n    (0.010) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.325 \n    0.667 \n  \n  \n    R2 Adj. \n    0.325 \n    0.667 \n  \n  \n    AIC \n    35377.8 \n    28321.6 \n  \n  \n    BIC \n    35399.4 \n    28350.5 \n  \n  \n    Log.Lik. \n    −17685.903 \n    −14156.823 \n  \n  \n    F \n    4812.596 \n    9999.422 \n  \n  \n    RMSE \n    1.42 \n    1.00"
+  },
+  {
+    "objectID": "aux2_controls.html#model12-graph",
+    "href": "aux2_controls.html#model12-graph",
+    "title": "what to control",
+    "section": "model12 graph",
+    "text": "model12 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model12-simulation",
+    "href": "aux2_controls.html#model12-simulation",
+    "title": "what to control",
+    "section": "model12 simulation",
+    "text": "model12 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.000 \n    0.001 \n  \n  \n     \n    (0.014) \n    (0.012) \n  \n  \n    x \n    0.972 \n    0.472 \n  \n  \n     \n    (0.014) \n    (0.015) \n  \n  \n    z \n     \n    0.502 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.317 \n    0.491 \n  \n  \n    R2 Adj. \n    0.317 \n    0.491 \n  \n  \n    AIC \n    35458.6 \n    32530.1 \n  \n  \n    BIC \n    35480.2 \n    32559.0 \n  \n  \n    Log.Lik. \n    −17726.309 \n    −16261.068 \n  \n  \n    F \n    4651.054 \n    4819.100 \n  \n  \n    RMSE \n    1.42 \n    1.23"
+  },
+  {
+    "objectID": "aux2_controls.html#variation-of-model11",
+    "href": "aux2_controls.html#variation-of-model11",
+    "title": "what to control",
+    "section": "variation of model11",
+    "text": "variation of model11"
+  },
+  {
+    "objectID": "aux2_controls.html#variation-of-model11-simulation",
+    "href": "aux2_controls.html#variation-of-model11-simulation",
+    "title": "what to control",
+    "section": "variation of model11 simulation",
+    "text": "variation of model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.026 \n    0.004 \n  \n  \n     \n    (0.025) \n    (0.012) \n  \n  \n    x \n    1.011 \n    −0.495 \n  \n  \n     \n    (0.025) \n    (0.015) \n  \n  \n    z \n     \n    1.505 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.139 \n    0.788 \n  \n  \n    R2 Adj. \n    0.139 \n    0.788 \n  \n  \n    AIC \n    46481.8 \n    32466.4 \n  \n  \n    BIC \n    46503.4 \n    32495.2 \n  \n  \n    Log.Lik. \n    −23237.877 \n    −16229.184 \n  \n  \n    F \n    1616.637 \n    18589.954 \n  \n  \n    RMSE \n    2.47 \n    1.23"
+  },
+  {
+    "objectID": "aux2_controls.html#model13-graph",
+    "href": "aux2_controls.html#model13-graph",
+    "title": "what to control",
+    "section": "model13 graph",
+    "text": "model13 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model13-simulation",
+    "href": "aux2_controls.html#model13-simulation",
+    "title": "what to control",
+    "section": "model13 simulation",
+    "text": "model13 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9999431    0.9994931"
+  },
+  {
+    "objectID": "aux2_controls.html#model14-graph",
+    "href": "aux2_controls.html#model14-graph",
+    "title": "what to control",
+    "section": "model14 graph",
+    "text": "model14 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model14-simulation",
+    "href": "aux2_controls.html#model14-simulation",
+    "title": "what to control",
+    "section": "model14 simulation",
+    "text": "model14 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9995748    1.0015214"
+  },
+  {
+    "objectID": "aux2_controls.html#model15-graph",
+    "href": "aux2_controls.html#model15-graph",
+    "title": "what to control",
+    "section": "model15 graph",
+    "text": "model15 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model15-simulation",
+    "href": "aux2_controls.html#model15-simulation",
+    "title": "what to control",
+    "section": "model15 simulation",
+    "text": "model15 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n    Model 3 \n  \n \n\n  \n    (Intercept) \n    0.034 \n    0.028 \n    0.039 \n  \n  \n     \n    (0.019) \n    (0.017) \n    (0.022) \n  \n  \n    x \n    1.629 \n    0.968 \n    0.964 \n  \n  \n     \n    (0.022) \n    (0.024) \n    (0.022) \n  \n  \n    w \n    −0.651 \n    −0.985 \n     \n  \n  \n     \n    (0.011) \n    (0.012) \n     \n  \n  \n    z \n     \n    1.001 \n     \n  \n  \n     \n     \n    (0.021) \n     \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n    10000 \n  \n  \n    R2 \n    0.376 \n    0.490 \n    0.160 \n  \n  \n    R2 Adj. \n    0.376 \n    0.490 \n    0.160 \n  \n  \n    AIC \n    41579.4 \n    39562.1 \n    44542.6 \n  \n  \n    BIC \n    41608.2 \n    39598.2 \n    44564.2 \n  \n  \n    Log.Lik. \n    −20785.700 \n    −19776.051 \n    −22268.294 \n  \n  \n    F \n    3008.820 \n    3200.049 \n    1908.500 \n  \n  \n    RMSE \n    1.93 \n    1.75 \n    2.24"
+  },
+  {
+    "objectID": "aux2_controls.html#model16-graph",
+    "href": "aux2_controls.html#model16-graph",
+    "title": "what to control",
+    "section": "model16 graph",
+    "text": "model16 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model16-simulation",
+    "href": "aux2_controls.html#model16-simulation",
+    "title": "what to control",
+    "section": "model16 simulation",
+    "text": "model16 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.005 \n    −0.006 \n  \n  \n     \n    (0.022) \n    (0.017) \n  \n  \n    x \n    1.052 \n    0.065 \n  \n  \n     \n    (0.022) \n    (0.021) \n  \n  \n    z \n     \n    0.980 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.183 \n    0.502 \n  \n  \n    R2 Adj. \n    0.183 \n    0.502 \n  \n  \n    AIC \n    44357.0 \n    39411.9 \n  \n  \n    BIC \n    44378.6 \n    39440.8 \n  \n  \n    Log.Lik. \n    −22175.482 \n    −19701.956 \n  \n  \n    F \n    2246.726 \n    5041.262 \n  \n  \n    RMSE \n    2.22 \n    1.74"
+  },
+  {
+    "objectID": "aux2_controls.html#model17-graph",
+    "href": "aux2_controls.html#model17-graph",
+    "title": "what to control",
+    "section": "model17 graph",
+    "text": "model17 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model17-simulation",
+    "href": "aux2_controls.html#model17-simulation",
+    "title": "what to control",
+    "section": "model17 simulation",
+    "text": "model17 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.016 \n    0.000 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    1.002 \n    −0.004 \n  \n  \n     \n    (0.010) \n    (0.012) \n  \n  \n    z \n     \n    0.502 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.500 \n    0.747 \n  \n  \n    R2 Adj. \n    0.500 \n    0.747 \n  \n  \n    AIC \n    28332.3 \n    21521.9 \n  \n  \n    BIC \n    28353.9 \n    21550.7 \n  \n  \n    Log.Lik. \n    −14163.134 \n    −10756.936 \n  \n  \n    F \n    10009.832 \n    14770.522 \n  \n  \n    RMSE \n    1.00 \n    0.71"
+  },
+  {
+    "objectID": "aux2_controls.html#model18-graph",
+    "href": "aux2_controls.html#model18-graph",
+    "title": "what to control",
+    "section": "model18 graph",
+    "text": "model18 graph"
+  },
+  {
+    "objectID": "aux2_controls.html#model18-simulation",
+    "href": "aux2_controls.html#model18-simulation",
+    "title": "what to control",
+    "section": "model18 simulation",
+    "text": "model18 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.007 \n    −0.013 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    0.984 \n    0.498 \n  \n  \n     \n    (0.010) \n    (0.009) \n  \n  \n    z \n     \n    0.494 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.497 \n    0.746 \n  \n  \n    R2 Adj. \n    0.497 \n    0.746 \n  \n  \n    AIC \n    28277.6 \n    21439.8 \n  \n  \n    BIC \n    28299.2 \n    21468.6 \n  \n  \n    Log.Lik. \n    −14135.791 \n    −10715.895 \n  \n  \n    F \n    9866.833 \n    14683.076 \n  \n  \n    RMSE \n    0.99 \n    0.71 \n  \n\n\n\n\n\n\nThis notebook contains R code with numerical simulations for all the examples discussed in:\nCinelli et al (2020). A Crash Course in Good and Bad Controls. Available at SSRN: https://ssrn.com/abstract=3689437"
+  },
+  {
+    "objectID": "aux2_controls.html#summary",
+    "href": "aux2_controls.html#summary",
+    "title": "what to control",
+    "section": "summary",
+    "text": "summary"
   },
   {
     "objectID": "R_self_learning.html",
@@ -740,5 +1125,75 @@
     "title": "R self-learn tutorial",
     "section": "Online Courses",
     "text": "Online Courses\n\nStatistics and R\nStatistics with R Specialization"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献综述的目的",
+    "href": "p3_literature_review.html#文献综述的目的",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献综述的目的",
+    "text": "文献综述的目的\n\n寻找研究盲区（GAP）\n提供理论框架的线索\n提供研究方法的借鉴"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献综述写作过程",
+    "href": "p3_literature_review.html#文献综述写作过程",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献综述写作过程",
+    "text": "文献综述写作过程\n\n检索\n下载\n管理\n引用"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献检索中文",
+    "href": "p3_literature_review.html#文献检索中文",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献检索（中文）",
+    "text": "文献检索（中文）\n\n形式：图书、期刊论文、新闻报道、报告、统计年鉴、硕博论文等。\n来源：\n中国知网（全文献检索，全库或核心库检索）\n图书馆书目索引\n当当、京东等商业图书网站\n网络（百度贴吧，知乎问答等）"
+  },
+  {
+    "objectID": "p3_literature_review.html#英文文献来源",
+    "href": "p3_literature_review.html#英文文献来源",
+    "title": "文献检索、管理与综述写作",
+    "section": "英文文献来源",
+    "text": "英文文献来源\n\nEBSCO–Academic Search Premier\nElsevier ScienceDirect 数据库\nJSTOR\nKluwer Online Journals\nLexis Advance法律数据库\nProQuest博硕士论文全文数据库\nSpringer电子期刊数据库\nWiley-Blackwell电子期刊数据库"
+  },
+  {
+    "objectID": "p3_literature_review.html#检索引擎",
+    "href": "p3_literature_review.html#检索引擎",
+    "title": "文献检索、管理与综述写作",
+    "section": "检索引擎",
+    "text": "检索引擎\n\nGoogle scholar\nSci-Hub\nWeb of Science–SSCI\nRUC图书馆"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献检索标准与方法",
+    "href": "p3_literature_review.html#文献检索标准与方法",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献检索标准与方法",
+    "text": "文献检索标准与方法\n\n标准\n全，检索源要广，不同文献源，不同语种，不同检索词，\n准，检索要确定与拟研究主题相关，\n优，优先在优质的库中选择，比如好的期刊、好学校，著名学者。\n方法\n关键词\n迭代索引"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献整理",
+    "href": "p3_literature_review.html#文献整理",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献整理",
+    "text": "文献整理\n\n文献管理软件（endnote, Mendeley, Reference Manager, Zotero，Papers)\n中文文献（noteexpress，E-study)"
+  },
+  {
+    "objectID": "p3_literature_review.html#假如文献太少怎么办",
+    "href": "p3_literature_review.html#假如文献太少怎么办",
+    "title": "文献检索、管理与综述写作",
+    "section": "假如文献太少怎么办？",
+    "text": "假如文献太少怎么办？\n\n检索用词不准确\n研究问题没有价值\n研究还没有条件\n你中奖了"
+  },
+  {
+    "objectID": "p3_literature_review.html#假如文献太多怎么办",
+    "href": "p3_literature_review.html#假如文献太多怎么办",
+    "title": "文献检索、管理与综述写作",
+    "section": "假如文献太多怎么办",
+    "text": "假如文献太多怎么办\n\n去伪存真\n去粗存精\n略读到精读"
+  },
+  {
+    "objectID": "p3_literature_review.html#文献综述写作",
+    "href": "p3_literature_review.html#文献综述写作",
+    "title": "文献检索、管理与综述写作",
+    "section": "文献综述写作",
+    "text": "文献综述写作\n\n归类\n内化\n主题引导式VS作者引导式\n点评\n\n\n\nseeking truths through facts"
   }
 ]
