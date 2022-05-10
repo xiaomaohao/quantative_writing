@@ -347,21 +347,21 @@
     "href": "aux1_DAG.html#dag",
     "title": "DAG and identification",
     "section": "DAG",
-    "text": "DAG\nA DAG displays assumptions about the relationship between variables (often called nodes). The assumptions we make take the form of lines (or edges) going from one node to another. These edges are directed, which means to say that they have a single arrowhead indicating their effect."
+    "text": "DAG\n\nDisplays assumptions about the relationship between variables (nodes).\nThe assumptions take the form of lines (edges) going from one node to another.\nDirected edges means that they have a single arrowhead indicating their effect.\nNo assumptions on functional form or variable distribution."
   },
   {
-    "objectID": "aux1_DAG.html#bidirection",
-    "href": "aux1_DAG.html#bidirection",
+    "objectID": "aux1_DAG.html#bi-direction",
+    "href": "aux1_DAG.html#bi-direction",
     "title": "DAG and identification",
-    "section": "bidirection",
-    "text": "bidirection"
+    "section": "bi-direction",
+    "text": "bi-direction"
   },
   {
-    "objectID": "aux1_DAG.html#bidirection-confounder",
-    "href": "aux1_DAG.html#bidirection-confounder",
+    "objectID": "aux1_DAG.html#bi-direction-confounder",
+    "href": "aux1_DAG.html#bi-direction-confounder",
     "title": "DAG and identification",
-    "section": "bidirection = confounder",
-    "text": "bidirection = confounder\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:"
+    "section": "bi-direction = confounder",
+    "text": "bi-direction = confounder"
   },
   {
     "objectID": "aux1_DAG.html#acyclic",
@@ -462,11 +462,11 @@
     "text": "path"
   },
   {
-    "objectID": "aux1_DAG.html#adjuestment-set",
-    "href": "aux1_DAG.html#adjuestment-set",
+    "objectID": "aux1_DAG.html#adjustment-set",
+    "href": "aux1_DAG.html#adjustment-set",
     "title": "DAG and identification",
-    "section": "adjuestment set",
-    "text": "adjuestment set"
+    "section": "adjustment set",
+    "text": "adjustment set"
   },
   {
     "objectID": "aux1_DAG.html#collider-bias",
@@ -476,11 +476,11 @@
     "text": "collider bias"
   },
   {
-    "objectID": "aux1_DAG.html#ajustment",
-    "href": "aux1_DAG.html#ajustment",
+    "objectID": "aux1_DAG.html#adjustment",
+    "href": "aux1_DAG.html#adjustment",
     "title": "DAG and identification",
-    "section": "ajustment",
-    "text": "ajustment"
+    "section": "adjustment",
+    "text": "adjustment"
   },
   {
     "objectID": "p4_theorizing.html#理论框架是什么",
@@ -504,11 +504,18 @@
     "text": "experiment"
   },
   {
-    "objectID": "aux3_natural_experiment.html#matching",
-    "href": "aux3_natural_experiment.html#matching",
+    "objectID": "aux3_natural_experiment.html#sharp-regression-discontinuity",
+    "href": "aux3_natural_experiment.html#sharp-regression-discontinuity",
     "title": "自然实验",
-    "section": "matching",
-    "text": "matching"
+    "section": "sharp regression discontinuity",
+    "text": "sharp regression discontinuity"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#fuzzy-regression-discontinuity",
+    "href": "aux3_natural_experiment.html#fuzzy-regression-discontinuity",
+    "title": "自然实验",
+    "section": "fuzzy regression discontinuity",
+    "text": "fuzzy regression discontinuity"
   },
   {
     "objectID": "aux3_natural_experiment.html#instrumental-variable",
@@ -525,18 +532,32 @@
     "text": "front-door criterion"
   },
   {
-    "objectID": "aux3_natural_experiment.html#regression-discontinuity",
-    "href": "aux3_natural_experiment.html#regression-discontinuity",
-    "title": "自然实验",
-    "section": "regression discontinuity",
-    "text": "regression discontinuity"
-  },
-  {
     "objectID": "aux3_natural_experiment.html#difference-in-difference",
     "href": "aux3_natural_experiment.html#difference-in-difference",
     "title": "自然实验",
     "section": "difference in difference",
-    "text": "difference in difference"
+    "text": "difference in difference\nto be continued"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#stratificationmatching",
+    "href": "aux3_natural_experiment.html#stratificationmatching",
+    "title": "自然实验",
+    "section": "stratification/matching",
+    "text": "stratification/matching"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#stratificationmatching-1",
+    "href": "aux3_natural_experiment.html#stratificationmatching-1",
+    "title": "自然实验",
+    "section": "stratification/matching",
+    "text": "stratification/matching"
+  },
+  {
+    "objectID": "aux3_natural_experiment.html#assumptions-vs-manipulations",
+    "href": "aux3_natural_experiment.html#assumptions-vs-manipulations",
+    "title": "自然实验",
+    "section": "Assumptions vs manipulations",
+    "text": "Assumptions vs manipulations\n\nexperiments\nregression discontinuity\ndifference in difference\ninstrumental variable\nfront-door criterion\nregression/matching/weighting"
   },
   {
     "objectID": "p6_data_analysis.html#主要内容",
@@ -928,7 +949,7 @@
     "href": "aux2_controls.html#model1-simulation",
     "title": "what to control",
     "section": "model1 simulation",
-    "text": "model1 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.007 \n    −0.001 \n  \n  \n     \n    (0.012) \n    (0.010) \n  \n  \n    x \n    1.501 \n    0.992 \n  \n  \n     \n    (0.009) \n    (0.010) \n  \n  \n    z \n     \n    1.011 \n  \n  \n     \n     \n    (0.014) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.747 \n    0.832 \n  \n  \n    R2 Adj. \n    0.747 \n    0.832 \n  \n  \n    AIC \n    32686.0 \n    28597.6 \n  \n  \n    BIC \n    32707.6 \n    28626.5 \n  \n  \n    Log.Lik. \n    −16339.983 \n    −14294.809 \n  \n  \n    F \n    29596.148 \n    24800.321 \n  \n  \n    RMSE \n    1.24 \n    1.01"
+    "text": "model1 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.024 \n    −0.014 \n  \n  \n     \n    (0.012) \n    (0.010) \n  \n  \n    x \n    1.491 \n    0.983 \n  \n  \n     \n    (0.009) \n    (0.010) \n  \n  \n    z \n     \n    1.002 \n  \n  \n     \n     \n    (0.014) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.744 \n    0.829 \n  \n  \n    R2 Adj. \n    0.744 \n    0.829 \n  \n  \n    AIC \n    32532.9 \n    28504.3 \n  \n  \n    BIC \n    32554.6 \n    28533.2 \n  \n  \n    Log.Lik. \n    −16263.471 \n    −14248.173 \n  \n  \n    F \n    29089.849 \n    24244.025 \n  \n  \n    RMSE \n    1.23 \n    1.01"
   },
   {
     "objectID": "aux2_controls.html#model2-graph",
@@ -942,7 +963,7 @@
     "href": "aux2_controls.html#model2-simulation",
     "title": "what to control",
     "section": "model2 simulation",
-    "text": "model2 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.024 \n    −0.019 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    x \n    1.344 \n    1.008 \n  \n  \n     \n    (0.008) \n    (0.012) \n  \n  \n    z \n     \n    0.503 \n  \n  \n     \n     \n    (0.015) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.761 \n    0.786 \n  \n  \n    R2 Adj. \n    0.761 \n    0.786 \n  \n  \n    AIC \n    33431.0 \n    32367.1 \n  \n  \n    BIC \n    33452.6 \n    32396.0 \n  \n  \n    Log.Lik. \n    −16712.502 \n    −16179.564 \n  \n  \n    F \n    31919.100 \n    18315.038 \n  \n  \n    RMSE \n    1.29 \n    1.22"
+    "text": "model2 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.007 \n    −0.004 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    x \n    1.318 \n    1.001 \n  \n  \n     \n    (0.007) \n    (0.012) \n  \n  \n    z \n     \n    0.476 \n  \n  \n     \n     \n    (0.015) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.757 \n    0.779 \n  \n  \n    R2 Adj. \n    0.757 \n    0.779 \n  \n  \n    AIC \n    33432.8 \n    32487.5 \n  \n  \n    BIC \n    33454.5 \n    32516.4 \n  \n  \n    Log.Lik. \n    −16713.411 \n    −16239.758 \n  \n  \n    F \n    31070.506 \n    17573.832 \n  \n  \n    RMSE \n    1.29 \n    1.23"
   },
   {
     "objectID": "aux2_controls.html#model3-graph",
@@ -956,7 +977,7 @@
     "href": "aux2_controls.html#model3-simulation",
     "title": "what to control",
     "section": "model3 simulation",
-    "text": "model3 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.003 \n    0.005 \n  \n  \n     \n    (0.016) \n    (0.010) \n  \n  \n    x \n    1.490 \n    1.000 \n  \n  \n     \n    (0.011) \n    (0.008) \n  \n  \n    z \n     \n    0.991 \n  \n  \n     \n     \n    (0.008) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.643 \n    0.854 \n  \n  \n    R2 Adj. \n    0.643 \n    0.854 \n  \n  \n    AIC \n    37393.2 \n    28461.5 \n  \n  \n    BIC \n    37414.8 \n    28490.4 \n  \n  \n    Log.Lik. \n    −18693.581 \n    −14226.765 \n  \n  \n    F \n    17980.850 \n    29178.907 \n  \n  \n    RMSE \n    1.57 \n    1.00"
+    "text": "model3 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.022 \n    0.006 \n  \n  \n     \n    (0.016) \n    (0.010) \n  \n  \n    x \n    1.491 \n    0.988 \n  \n  \n     \n    (0.011) \n    (0.008) \n  \n  \n    z \n     \n    1.016 \n  \n  \n     \n     \n    (0.008) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.632 \n    0.862 \n  \n  \n    R2 Adj. \n    0.632 \n    0.862 \n  \n  \n    AIC \n    37886.5 \n    28088.1 \n  \n  \n    BIC \n    37908.1 \n    28116.9 \n  \n  \n    Log.Lik. \n    −18940.256 \n    −14040.037 \n  \n  \n    F \n    17169.383 \n    31192.617 \n  \n  \n    RMSE \n    1.61 \n    0.99"
   },
   {
     "objectID": "aux2_controls.html#model4-graph",
@@ -970,7 +991,7 @@
     "href": "aux2_controls.html#model4-simulation",
     "title": "what to control",
     "section": "model4 simulation",
-    "text": "model4 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.004 \n    0.002 \n  \n  \n     \n    (0.016) \n    (0.014) \n  \n  \n    x \n    1.487 \n    0.988 \n  \n  \n     \n    (0.011) \n    (0.014) \n  \n  \n    z \n     \n    1.010 \n  \n  \n     \n     \n    (0.020) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.636 \n    0.711 \n  \n  \n    R2 Adj. \n    0.636 \n    0.710 \n  \n  \n    AIC \n    37695.8 \n    35398.7 \n  \n  \n    BIC \n    37717.5 \n    35427.5 \n  \n  \n    Log.Lik. \n    −18844.910 \n    −17695.333 \n  \n  \n    F \n    17445.969 \n    12268.802 \n  \n  \n    RMSE \n    1.59 \n    1.42"
+    "text": "model4 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.001 \n    −0.004 \n  \n  \n     \n    (0.016) \n    (0.014) \n  \n  \n    x \n    1.503 \n    0.999 \n  \n  \n     \n    (0.011) \n    (0.014) \n  \n  \n    z \n     \n    1.004 \n  \n  \n     \n     \n    (0.020) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.638 \n    0.712 \n  \n  \n    R2 Adj. \n    0.638 \n    0.712 \n  \n  \n    AIC \n    37442.2 \n    35159.2 \n  \n  \n    BIC \n    37463.8 \n    35188.1 \n  \n  \n    Log.Lik. \n    −18718.085 \n    −17575.611 \n  \n  \n    F \n    17653.439 \n    12374.642 \n  \n  \n    RMSE \n    1.57 \n    1.40"
   },
   {
     "objectID": "aux2_controls.html#model5-graph",
@@ -984,7 +1005,7 @@
     "href": "aux2_controls.html#model5-simulation",
     "title": "what to control",
     "section": "model5 simulation",
-    "text": "model5 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.045 \n    0.039 \n  \n  \n     \n    (0.016) \n    (0.016) \n  \n  \n    x \n    1.338 \n    1.018 \n  \n  \n     \n    (0.009) \n    (0.016) \n  \n  \n    z \n     \n    0.478 \n  \n  \n     \n     \n    (0.019) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.672 \n    0.691 \n  \n  \n    R2 Adj. \n    0.672 \n    0.691 \n  \n  \n    AIC \n    38076.1 \n    37480.4 \n  \n  \n    BIC \n    38097.7 \n    37509.2 \n  \n  \n    Log.Lik. \n    −19035.058 \n    −18736.192 \n  \n  \n    F \n    20457.715 \n    11165.710 \n  \n  \n    RMSE \n    1.62 \n    1.58"
+    "text": "model5 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.001 \n    −0.006 \n  \n  \n     \n    (0.016) \n    (0.016) \n  \n  \n    x \n    1.332 \n    1.009 \n  \n  \n     \n    (0.009) \n    (0.016) \n  \n  \n    z \n     \n    0.484 \n  \n  \n     \n     \n    (0.020) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.667 \n    0.686 \n  \n  \n    R2 Adj. \n    0.667 \n    0.686 \n  \n  \n    AIC \n    38298.3 \n    37707.7 \n  \n  \n    BIC \n    38320.0 \n    37736.6 \n  \n  \n    Log.Lik. \n    −19146.172 \n    −18849.875 \n  \n  \n    F \n    20040.935 \n    10936.319 \n  \n  \n    RMSE \n    1.64 \n    1.59"
   },
   {
     "objectID": "aux2_controls.html#model6-graph",
@@ -998,7 +1019,7 @@
     "href": "aux2_controls.html#model6-simulation",
     "title": "what to control",
     "section": "model6 simulation",
-    "text": "model6 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.013 \n    −0.005 \n  \n  \n     \n    (0.019) \n    (0.014) \n  \n  \n    x \n    1.487 \n    0.994 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    z \n     \n    1.007 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.552 \n    0.742 \n  \n  \n    R2 Adj. \n    0.552 \n    0.742 \n  \n  \n    AIC \n    41067.5 \n    35567.8 \n  \n  \n    BIC \n    41089.1 \n    35596.6 \n  \n  \n    Log.Lik. \n    −20530.745 \n    −17779.903 \n  \n  \n    F \n    12325.721 \n    14349.153 \n  \n  \n    RMSE \n    1.89 \n    1.43"
+    "text": "model6 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.004 \n    0.010 \n  \n  \n     \n    (0.019) \n    (0.014) \n  \n  \n    x \n    1.479 \n    0.972 \n  \n  \n     \n    (0.013) \n    (0.012) \n  \n  \n    z \n     \n    1.030 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.548 \n    0.748 \n  \n  \n    R2 Adj. \n    0.548 \n    0.748 \n  \n  \n    AIC \n    41141.0 \n    35326.4 \n  \n  \n    BIC \n    41162.6 \n    35355.2 \n  \n  \n    Log.Lik. \n    −20567.482 \n    −17659.199 \n  \n  \n    F \n    12145.668 \n    14807.028 \n  \n  \n    RMSE \n    1.89 \n    1.42"
   },
   {
     "objectID": "aux2_controls.html#model7-graph",
@@ -1012,7 +1033,7 @@
     "href": "aux2_controls.html#mdoel7-simulation",
     "title": "what to control",
     "section": "mdoel7 simulation",
-    "text": "mdoel7 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.129 \n    0.087 \n  \n  \n     \n    (0.041) \n    (0.033) \n  \n  \n    x \n    1.057 \n    1.840 \n  \n  \n     \n    (0.029) \n    (0.025) \n  \n  \n    z \n     \n    −1.618 \n  \n  \n     \n     \n    (0.021) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.114 \n    0.450 \n  \n  \n    R2 Adj. \n    0.114 \n    0.450 \n  \n  \n    AIC \n    56762.3 \n    51997.9 \n  \n  \n    BIC \n    56784.0 \n    52026.8 \n  \n  \n    Log.Lik. \n    −28378.168 \n    −25994.974 \n  \n  \n    F \n    1288.273 \n    4089.718 \n  \n  \n    RMSE \n    4.13 \n    3.26"
+    "text": "mdoel7 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.069 \n    −0.032 \n  \n  \n     \n    (0.041) \n    (0.032) \n  \n  \n    x \n    0.989 \n    1.801 \n  \n  \n     \n    (0.029) \n    (0.025) \n  \n  \n    z \n     \n    −1.601 \n  \n  \n     \n     \n    (0.020) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.102 \n    0.444 \n  \n  \n    R2 Adj. \n    0.102 \n    0.444 \n  \n  \n    AIC \n    56684.5 \n    51890.4 \n  \n  \n    BIC \n    56706.1 \n    51919.2 \n  \n  \n    Log.Lik. \n    −28339.226 \n    −25941.183 \n  \n  \n    F \n    1132.397 \n    3990.857 \n  \n  \n    RMSE \n    4.12 \n    3.24"
   },
   {
     "objectID": "aux2_controls.html#model8-graph",
@@ -1026,7 +1047,7 @@
     "href": "aux2_controls.html#model8-simulation",
     "title": "what to control",
     "section": "model8 simulation",
-    "text": "model8 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9991028    1.0000091"
+    "text": "model8 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9998296    0.9998023"
   },
   {
     "objectID": "aux2_controls.html#model9-graph",
@@ -1040,7 +1061,7 @@
     "href": "aux2_controls.html#model-9-simulation",
     "title": "what to control",
     "section": "model 9 simulation",
-    "text": "model 9 simulation\n\n\nunadjusted.x   adjusted.x \n    1.000270     1.000392"
+    "text": "model 9 simulation\n\n\nunadjusted.x   adjusted.x \n    1.000257     1.000017"
   },
   {
     "objectID": "aux2_controls.html#model10-graph",
@@ -1054,7 +1075,7 @@
     "href": "aux2_controls.html#model10-simulation",
     "title": "what to control",
     "section": "model10 simulation",
-    "text": "model10 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.010 \n    −0.015 \n  \n  \n     \n    (0.021) \n    (0.017) \n  \n  \n    x \n    1.327 \n    2.000 \n  \n  \n     \n    (0.009) \n    (0.012) \n  \n  \n    z \n     \n    −2.024 \n  \n  \n     \n     \n    (0.030) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.707 \n    0.798 \n  \n  \n    R2 Adj. \n    0.707 \n    0.798 \n  \n  \n    AIC \n    43105.0 \n    39375.2 \n  \n  \n    BIC \n    43126.6 \n    39404.0 \n  \n  \n    Log.Lik. \n    −21549.499 \n    −19683.586 \n  \n  \n    F \n    24125.799 \n    19778.864 \n  \n  \n    RMSE \n    2.09 \n    1.73"
+    "text": "model10 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.005 \n    0.001 \n  \n  \n     \n    (0.021) \n    (0.017) \n  \n  \n    x \n    1.328 \n    2.018 \n  \n  \n     \n    (0.009) \n    (0.012) \n  \n  \n    z \n     \n    −2.066 \n  \n  \n     \n     \n    (0.030) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.702 \n    0.798 \n  \n  \n    R2 Adj. \n    0.702 \n    0.798 \n  \n  \n    AIC \n    43309.4 \n    39426.6 \n  \n  \n    BIC \n    43331.0 \n    39455.5 \n  \n  \n    Log.Lik. \n    −21651.693 \n    −19709.323 \n  \n  \n    F \n    23589.619 \n    19765.335 \n  \n  \n    RMSE \n    2.11 \n    1.74"
   },
   {
     "objectID": "aux2_controls.html#model11-graph",
@@ -1068,7 +1089,7 @@
     "href": "aux2_controls.html#model11-simulation",
     "title": "what to control",
     "section": "model11 simulation",
-    "text": "model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.001 \n    0.008 \n  \n  \n     \n    (0.014) \n    (0.010) \n  \n  \n    x \n    1.006 \n    −0.001 \n  \n  \n     \n    (0.014) \n    (0.014) \n  \n  \n    z \n     \n    1.006 \n  \n  \n     \n     \n    (0.010) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.329 \n    0.666 \n  \n  \n    R2 Adj. \n    0.329 \n    0.665 \n  \n  \n    AIC \n    35350.6 \n    28391.8 \n  \n  \n    BIC \n    35372.3 \n    28420.6 \n  \n  \n    Log.Lik. \n    −17672.320 \n    −14191.900 \n  \n  \n    F \n    4905.592 \n    9947.430 \n  \n  \n    RMSE \n    1.42 \n    1.00"
+    "text": "model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.016 \n    0.003 \n  \n  \n     \n    (0.014) \n    (0.010) \n  \n  \n    x \n    0.992 \n    −0.025 \n  \n  \n     \n    (0.014) \n    (0.014) \n  \n  \n    z \n     \n    1.016 \n  \n  \n     \n     \n    (0.010) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.327 \n    0.671 \n  \n  \n    R2 Adj. \n    0.327 \n    0.671 \n  \n  \n    AIC \n    35509.5 \n    28363.6 \n  \n  \n    BIC \n    35531.1 \n    28392.4 \n  \n  \n    Log.Lik. \n    −17751.747 \n    −14177.786 \n  \n  \n    F \n    4855.772 \n    10178.769 \n  \n  \n    RMSE \n    1.43 \n    1.00"
   },
   {
     "objectID": "aux2_controls.html#model12-graph",
@@ -1082,7 +1103,7 @@
     "href": "aux2_controls.html#model12-simulation",
     "title": "what to control",
     "section": "model12 simulation",
-    "text": "model12 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.008 \n    0.001 \n  \n  \n     \n    (0.014) \n    (0.012) \n  \n  \n    x \n    1.001 \n    0.493 \n  \n  \n     \n    (0.014) \n    (0.015) \n  \n  \n    z \n     \n    0.506 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.340 \n    0.510 \n  \n  \n    R2 Adj. \n    0.340 \n    0.510 \n  \n  \n    AIC \n    35220.6 \n    32242.6 \n  \n  \n    BIC \n    35242.2 \n    32271.4 \n  \n  \n    Log.Lik. \n    −17607.276 \n    −16117.275 \n  \n  \n    F \n    5157.931 \n    5209.226 \n  \n  \n    RMSE \n    1.41 \n    1.21"
+    "text": "model12 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.030 \n    −0.024 \n  \n  \n     \n    (0.014) \n    (0.012) \n  \n  \n    x \n    0.999 \n    0.486 \n  \n  \n     \n    (0.014) \n    (0.015) \n  \n  \n    z \n     \n    0.517 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.332 \n    0.507 \n  \n  \n    R2 Adj. \n    0.332 \n    0.507 \n  \n  \n    AIC \n    35481.0 \n    32438.9 \n  \n  \n    BIC \n    35502.6 \n    32467.8 \n  \n  \n    Log.Lik. \n    −17737.498 \n    −16215.455 \n  \n  \n    F \n    4970.258 \n    5147.640 \n  \n  \n    RMSE \n    1.43 \n    1.22"
   },
   {
     "objectID": "aux2_controls.html#variation-of-model11",
@@ -1096,7 +1117,7 @@
     "href": "aux2_controls.html#variation-of-model11-simulation",
     "title": "what to control",
     "section": "variation of model11 simulation",
-    "text": "variation of model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.045 \n    −0.019 \n  \n  \n     \n    (0.024) \n    (0.012) \n  \n  \n    x \n    1.022 \n    −0.481 \n  \n  \n     \n    (0.024) \n    (0.015) \n  \n  \n    z \n     \n    1.493 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.150 \n    0.790 \n  \n  \n    R2 Adj. \n    0.150 \n    0.790 \n  \n  \n    AIC \n    46208.4 \n    32228.4 \n  \n  \n    BIC \n    46230.0 \n    32257.3 \n  \n  \n    Log.Lik. \n    −23101.194 \n    −16110.205 \n  \n  \n    F \n    1763.274 \n    18803.340 \n  \n  \n    RMSE \n    2.44 \n    1.21"
+    "text": "variation of model11 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.071 \n    −0.016 \n  \n  \n     \n    (0.025) \n    (0.012) \n  \n  \n    x \n    0.971 \n    −0.502 \n  \n  \n     \n    (0.025) \n    (0.015) \n  \n  \n    z \n     \n    1.504 \n  \n  \n     \n     \n    (0.009) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.135 \n    0.789 \n  \n  \n    R2 Adj. \n    0.135 \n    0.789 \n  \n  \n    AIC \n    46359.9 \n    32270.8 \n  \n  \n    BIC \n    46381.5 \n    32299.6 \n  \n  \n    Log.Lik. \n    −23176.929 \n    −16131.390 \n  \n  \n    F \n    1559.325 \n    18647.167 \n  \n  \n    RMSE \n    2.46 \n    1.21"
   },
   {
     "objectID": "aux2_controls.html#model13-graph",
@@ -1110,7 +1131,7 @@
     "href": "aux2_controls.html#model13-simulation",
     "title": "what to control",
     "section": "model13 simulation",
-    "text": "model13 simulation\n\n\nunadjusted.x   adjusted.x \n    1.001932     1.000272"
+    "text": "model13 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9997093    1.0005497"
   },
   {
     "objectID": "aux2_controls.html#model14-graph",
@@ -1124,7 +1145,7 @@
     "href": "aux2_controls.html#model14-simulation",
     "title": "what to control",
     "section": "model14 simulation",
-    "text": "model14 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9994599    1.0014436"
+    "text": "model14 simulation\n\n\nunadjusted.x   adjusted.x \n   0.9995661    1.0012137"
   },
   {
     "objectID": "aux2_controls.html#model15-graph",
@@ -1138,7 +1159,7 @@
     "href": "aux2_controls.html#model15-simulation",
     "title": "what to control",
     "section": "model15 simulation",
-    "text": "model15 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n    Model 3 \n  \n \n\n  \n    (Intercept) \n    −0.019 \n    −0.010 \n    −0.029 \n  \n  \n     \n    (0.019) \n    (0.017) \n    (0.022) \n  \n  \n    x \n    1.671 \n    1.013 \n    1.000 \n  \n  \n     \n    (0.022) \n    (0.024) \n    (0.022) \n  \n  \n    w \n    −0.676 \n    −1.000 \n     \n  \n  \n     \n    (0.011) \n    (0.012) \n     \n  \n  \n    z \n     \n    0.981 \n     \n  \n  \n     \n     \n    (0.021) \n     \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n    10000 \n  \n  \n    R2 \n    0.397 \n    0.506 \n    0.168 \n  \n  \n    R2 Adj. \n    0.397 \n    0.506 \n    0.168 \n  \n  \n    AIC \n    41218.4 \n    39235.8 \n    44434.6 \n  \n  \n    BIC \n    41247.2 \n    39271.8 \n    44456.2 \n  \n  \n    Log.Lik. \n    −20605.196 \n    −19612.886 \n    −22214.277 \n  \n  \n    F \n    3294.822 \n    3409.938 \n    2025.722 \n  \n  \n    RMSE \n    1.90 \n    1.72 \n    2.23"
+    "text": "model15 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n    Model 3 \n  \n \n\n  \n    (Intercept) \n    −0.011 \n    −0.017 \n    −0.005 \n  \n  \n     \n    (0.019) \n    (0.017) \n    (0.022) \n  \n  \n    x \n    1.668 \n    1.003 \n    1.033 \n  \n  \n     \n    (0.022) \n    (0.025) \n    (0.022) \n  \n  \n    w \n    −0.655 \n    −0.984 \n     \n  \n  \n     \n    (0.011) \n    (0.012) \n     \n  \n  \n    z \n     \n    0.993 \n     \n  \n  \n     \n     \n    (0.021) \n     \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n    10000 \n  \n  \n    R2 \n    0.389 \n    0.498 \n    0.175 \n  \n  \n    R2 Adj. \n    0.389 \n    0.498 \n    0.175 \n  \n  \n    AIC \n    41371.2 \n    39414.0 \n    44375.7 \n  \n  \n    BIC \n    41400.0 \n    39450.1 \n    44397.3 \n  \n  \n    Log.Lik. \n    −20681.595 \n    −19702.017 \n    −22184.825 \n  \n  \n    F \n    3187.958 \n    3306.140 \n    2124.734 \n  \n  \n    RMSE \n    1.91 \n    1.74 \n    2.22"
   },
   {
     "objectID": "aux2_controls.html#model16-graph",
@@ -1152,7 +1173,7 @@
     "href": "aux2_controls.html#model16-simulation",
     "title": "what to control",
     "section": "model16 simulation",
-    "text": "model16 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.017 \n    −0.009 \n  \n  \n     \n    (0.022) \n    (0.017) \n  \n  \n    x \n    1.006 \n    −0.012 \n  \n  \n     \n    (0.022) \n    (0.021) \n  \n  \n    z \n     \n    1.002 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.169 \n    0.502 \n  \n  \n    R2 Adj. \n    0.169 \n    0.502 \n  \n  \n    AIC \n    44589.1 \n    39472.0 \n  \n  \n    BIC \n    44610.8 \n    39500.9 \n  \n  \n    Log.Lik. \n    −22291.575 \n    −19732.005 \n  \n  \n    F \n    2039.854 \n    5042.965 \n  \n  \n    RMSE \n    2.25 \n    1.74"
+    "text": "model16 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.001 \n    −0.015 \n  \n  \n     \n    (0.022) \n    (0.017) \n  \n  \n    x \n    0.982 \n    −0.011 \n  \n  \n     \n    (0.022) \n    (0.021) \n  \n  \n    z \n     \n    0.989 \n  \n  \n     \n     \n    (0.012) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.165 \n    0.494 \n  \n  \n    R2 Adj. \n    0.165 \n    0.494 \n  \n  \n    AIC \n    44426.2 \n    39422.9 \n  \n  \n    BIC \n    44447.9 \n    39451.7 \n  \n  \n    Log.Lik. \n    −22210.111 \n    −19707.429 \n  \n  \n    F \n    1978.339 \n    4878.632 \n  \n  \n    RMSE \n    2.23 \n    1.74"
   },
   {
     "objectID": "aux2_controls.html#model17-graph",
@@ -1166,7 +1187,7 @@
     "href": "aux2_controls.html#model17-simulation",
     "title": "what to control",
     "section": "model17 simulation",
-    "text": "model17 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.014 \n    −0.007 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    0.998 \n    −0.007 \n  \n  \n     \n    (0.010) \n    (0.012) \n  \n  \n    z \n     \n    0.503 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.494 \n    0.749 \n  \n  \n    R2 Adj. \n    0.494 \n    0.749 \n  \n  \n    AIC \n    28465.5 \n    21457.9 \n  \n  \n    BIC \n    28487.1 \n    21486.7 \n  \n  \n    Log.Lik. \n    −14229.757 \n    −10724.941 \n  \n  \n    F \n    9775.384 \n    14928.047 \n  \n  \n    RMSE \n    1.00 \n    0.71"
+    "text": "model17 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.008 \n    −0.004 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    1.000 \n    −0.023 \n  \n  \n     \n    (0.010) \n    (0.012) \n  \n  \n    z \n     \n    0.506 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.498 \n    0.754 \n  \n  \n    R2 Adj. \n    0.498 \n    0.754 \n  \n  \n    AIC \n    28518.5 \n    21384.8 \n  \n  \n    BIC \n    28540.2 \n    21413.6 \n  \n  \n    Log.Lik. \n    −14256.267 \n    −10688.394 \n  \n  \n    F \n    9909.296 \n    15317.599 \n  \n  \n    RMSE \n    1.01 \n    0.70"
   },
   {
     "objectID": "aux2_controls.html#model18-graph",
@@ -1180,7 +1201,7 @@
     "href": "aux2_controls.html#model18-simulation",
     "title": "what to control",
     "section": "model18 simulation",
-    "text": "model18 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    −0.010 \n    −0.007 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    1.005 \n    0.501 \n  \n  \n     \n    (0.010) \n    (0.009) \n  \n  \n    z \n     \n    0.506 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.502 \n    0.755 \n  \n  \n    R2 Adj. \n    0.502 \n    0.755 \n  \n  \n    AIC \n    28488.4 \n    21396.5 \n  \n  \n    BIC \n    28510.0 \n    21425.4 \n  \n  \n    Log.Lik. \n    −14241.188 \n    −10694.269 \n  \n  \n    F \n    10084.254 \n    15410.442 \n  \n  \n    RMSE \n    1.01 \n    0.71 \n  \n\n\n\n\n\n\nThis notebook contains R code with numerical simulations for all the examples discussed in:\nCinelli et al (2020). A Crash Course in Good and Bad Controls. Available at SSRN: https://ssrn.com/abstract=3689437"
+    "text": "model18 simulation\n\n\n\n \n  \n      \n    Model 1 \n    Model 2 \n  \n \n\n  \n    (Intercept) \n    0.006 \n    0.005 \n  \n  \n     \n    (0.010) \n    (0.007) \n  \n  \n    x \n    1.008 \n    0.512 \n  \n  \n     \n    (0.010) \n    (0.009) \n  \n  \n    z \n     \n    0.496 \n  \n  \n     \n     \n    (0.005) \n  \n  \n    Num.Obs. \n    10000 \n    10000 \n  \n  \n    R2 \n    0.504 \n    0.751 \n  \n  \n    R2 Adj. \n    0.504 \n    0.751 \n  \n  \n    AIC \n    28377.1 \n    21478.5 \n  \n  \n    BIC \n    28398.8 \n    21507.4 \n  \n  \n    Log.Lik. \n    −14185.574 \n    −10735.258 \n  \n  \n    F \n    10159.905 \n    15095.323 \n  \n  \n    RMSE \n    1.00 \n    0.71 \n  \n\n\n\n\n\n\nThis notebook contains R code with numerical simulations for all the examples discussed in:\nCinelli et al (2020). A Crash Course in Good and Bad Controls. Available at SSRN: https://ssrn.com/abstract=3689437"
   },
   {
     "objectID": "aux2_controls.html#summary",

@@ -12,20 +12,31 @@ execute:
 library(ggdag)
 library(ggplot2)
 library(tidyverse)
+library(knitr)
 theme_set(theme_dag())
 coords <- list(
     x = c(z = 1, x = 2, y = 3, u = 2.5),
     y = c(z = 0, x = 0, y = 0, u = 3)
     )
 dagify(y ~ x +u,
-       x~z+u,
+       x~z,
        coords = coords
        ) %>% 
   ggdag() 
-
 ```
 
-## matching
+## sharp regression discontinuity
+
+```{r}
+
+include_graphics("objects/rd1.png")
+```
+
+## fuzzy regression discontinuity
+
+```{r}
+include_graphics("objects/rd2.png")
+```
 
 ## instrumental variable
 
@@ -36,10 +47,11 @@ coords <- list(
     y = c(z = 0, x = 0, y = 0, u = 3)
     )
 dagify(y ~ x +u,
-       x~z,
+       x~z+u,
        coords = coords
        ) %>% 
   ggdag() 
+
 ```
 
 ## front-door criterion
@@ -57,6 +69,34 @@ dagify(y ~ m +u,
   ggdag() 
 ```
 
-## regression discontinuity
-
 ## difference in difference
+
+to be continued
+
+## **stratification**/matching
+
+```{r}
+
+include_graphics("objects/matching1.png")
+```
+
+## stratification/matching
+
+```{r}
+
+include_graphics("objects/matching2.png")
+```
+
+## Assumptions vs manipulations
+
+-   experiments
+
+-   regression discontinuity
+
+-   difference in difference
+
+-   instrumental variable
+
+-   front-door criterion
+
+-   regression/matching/weighting

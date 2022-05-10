@@ -9,7 +9,13 @@ execute:
 
 ## DAG
 
-A DAG displays assumptions about the relationship between variables (often called nodes). The assumptions we make take the form of lines (or edges) going from one node to another. These edges are directed, which means to say that they have a single arrowhead indicating their effect.
+-   Displays **assumptions** about the relationship between variables (**nodes**).
+
+-   The assumptions take the form of lines (**edges**) going from one node to another.
+
+-   Directed edges means that they have a single arrowhead indicating their effect.
+
+-   No assumptions on functional form or variable distribution.
 
 ```{r}
 library(ggdag)
@@ -19,16 +25,14 @@ dagify(y~x) %>%
   ggdag()
 ```
 
-## bidirection
+## bi-direction
 
 ```{r}
 dagify(y ~~ x) %>% 
   ggdag()
 ```
 
-## bidirection = confounder
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## bi-direction = confounder
 
 ```{r}
 dagify(y ~~ x) %>% 
@@ -170,7 +174,7 @@ ggdag_paths(dag1,shadow = T)
 
 ```
 
-## adjuestment set
+## adjustment set
 
 ```{r}
 ggdag_adjustment_set(dag1, exposure = "D",
@@ -195,7 +199,7 @@ ggdag(dag2)
 ggdag_paths(dag2,shadow = T)
 ```
 
-## ajustment
+## adjustment
 
 ```{r}
 ggdag_adjustment_set(dag2)
