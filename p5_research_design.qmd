@@ -1,0 +1,118 @@
+---
+title: "Research Design"
+author: Yangyong Ye
+date: 2022/05/10
+format: revealjs
+---
+
+## 确定研究类型
+
+-   描述性研究
+
+-   相关性研究
+
+-   因果性研究
+
+## 描述性研究设计
+
+-   新颖的对象
+-   测量方法
+-   分群方法
+
+## 简单相关性研究
+
+-   T检验
+-   ANOVA
+-   卡方检验
+-   相关系数
+
+## 复杂相关性研究
+
+-   虚拟变量
+-   顺序变量
+-   计数变量
+-   分类变量
+-   连续变量
+-   事件变量
+
+## 复杂相关性研究（regression)
+
+-   Simple regression
+
+-   Logistic regression
+
+-   Ordered logistic regression
+
+-   Multinomial logistic regression
+
+-   Count regression
+
+-   Survival
+
+## 因果分析方法
+
+-   RCT
+-   regression/matching/weighting
+-   DID
+-   RD
+-   IV
+-   FDC
+
+## 因果研究的四个步骤("mostly harmless")
+
+-   研究什么关系(relationship)
+
+-   确定该关系的实验方法是怎样的(experiment design)
+
+-   确定识别策略(identification strategy)
+
+-   确定统计推断方法(inference)
+
+## 从理论到方法
+
+-   确定假设
+
+-   假想实验
+
+-   自然实验
+
+-   控制变量选择
+
+## 为什么要做假想实验？
+
+-   sufficiently well-defined intervention
+
+-   feasible intervention, manipulative
+
+-   attributes or causes?
+
+做假想实验，可以明确treatment的具体所指，是否有不同版本，是否是可界定的。现实中有些干预效应是没有准确界定的。 比如干预是寄宿与否，那么寄宿的时长，寄宿的条件可能都有所不同。
+
+这种干预措施的不明确，或者存在的变化，一方面可能效果估计的偏差，另一方面也可以解释为什么存在效果估计的异质性。
+
+## 自然实验如何寻找？
+
+-   randomness
+
+-   intervention
+
+## 控制变量如何选择？
+
+-   pretreatment variable
+
+-   posttreatment variable
+
+-   confounder
+
+-   collider
+
+## 控制变量如何选择？
+
+<div>
+
+```{r}
+library(knitr)
+include_graphics("objects/control.png")
+```
+
+</div>

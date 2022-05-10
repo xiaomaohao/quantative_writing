@@ -1,0 +1,27 @@
+---
+title: "Finding Theory"
+author: Yangyong Ye
+date: 2022/05/10
+format:
+  revealjs:
+    incremental: true   
+    footer: "seeking truths through facts"
+---
+
+## 理论框架是什么
+
+-   从果的因到因的果
+
+-   是否有因果效应
+
+-   影响机制（中介效应）
+
+-   影响机制（交互效应）
+
+## 如何发现理论
+
+-   移植：一个领域到另一个领域
+
+-   适用：从原理到情境
+
+-   构建：基于经验

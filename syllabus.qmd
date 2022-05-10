@@ -7,15 +7,15 @@ format:
 
 ## 课程简介
 
-本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析等展开，以求课程结束，学生完成一篇论文的完整写作过程。
+本课程是一门量化论文写作实践指导课，学生将在教师指导下完成论文从选题到成稿的完整过程，课堂以学生习作为研讨对象，发现论文写作中的具体问题，在实践中改进。课程将着重围绕论文选题、文献综述、理论框架搭建、研究设计、数据分析和结果呈现等展开，以求课程结束，学生完成一篇论文的完整写作过程。
 
 ## 课程目标
 
-1.  使学生掌握发现可研究的问题的方法。
-2.  使生掌握中外文文献检索方法与文献综述写作方法。
+1.  掌握发现研究问题的方法
+2.  掌握文献检索、管理方法与文献综述写作方法
 3.  使学生掌握理论框架写作
 4.  使学生掌握研究设计部分的写作
-5.  熟悉量化论文结果呈现方法
+5.  掌握量化论文结果呈现方法
 
 ## 课程内容
 
@@ -41,19 +41,27 @@ format:
 -   模型选择
 -   变量选择
 
-5.  研究结果呈现
+5.  数据分析
+
+-   描述性分析
+-   相关性分析
+-   机制分析
+-   敏感性检验
+-   非预期结果的处理
+
+6.  研究结果呈现
 
 -   描述性结果
--   统计分析结
+-   统计分析结果
 
-6、定量论文的阅读与写作
+7.  经典论文阅读
 
--   定量论文的阅读
--   定量论文的写作
+-   定量论文阅读
+-   定量论文再现
 
 ## 授课形式
 
-课程以课堂讨论为主，教师讲授为辅。
+课程以学生分享习作为主，教师讲授为辅。
 
 ## 考核方式
 
@@ -63,7 +71,11 @@ format:
 
 ## 课程材料
 
+### Books
+
 Cunningham, S. (2021). [Causal inference: the mixtape](https://mixtape.scunning.com/index.html). Yale University Press.
+
+### Empirical articles
 
 Angrist, J. D., & Keueger, A. B. (1991). Does Compulsory School Attendance Affect Schooling and Earnings? *The Quarterly Journal of Economics*, *106*(4), 979--1014. https://doi.org/10.2307/2937954
 
@@ -72,6 +84,12 @@ Angrist, J. D., & Lavy, V. (1999). Using Maimonides' rule to estimate the effect
 Black, S. E. (1999). Do better schools matter? Parental valuation of elementary education. *Quarterly Journal of Economics*, *114*(2), 577--599. Retrieved from http://qje.oxfordjournals.org/content/114/2/577.short
 
 Klaauw, W. Van der. (2002). Estimating the Effect of Financial Aid Offers on College Enrollment: A Regression--Discontinuity Approach. *International Economic Review*, *43*(4), 1249--1287. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/1468-2354.t01-1-00055/full
+
+### Method articles
+
+Cinelli, C., Forney, A., & Pearl, J. (2022). A Crash Course in Good and Bad Controls. *SSRN Electronic Journal*, (March), 1--30. https://doi.org/10.2139/ssrn.3689437
+
+Elwert, F., & Winship, C. (2014). Endogenous selection bias: The problem of conditioning on a collider variable. *Annual Review of Sociology*, *40*, 31--53.https://doi.org/10.1146/annurev-soc-071913-043455
 
 ## 推荐阅读
 

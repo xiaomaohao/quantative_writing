@@ -12,21 +12,27 @@ title: "量化研究论文写作指导"
 
 -   [问题选择](p2_question.qmd)
 
--   文献综述
+-   [文献综述](p3_literature_review.qmd)
 
--   理论框架
+-   [理论框架](p4_theorizing.qmd)
 
--   方法设计
+-   [方法设计](p5_research_design.qmd)
 
--   数据分析
+-   [数据分析](p6_data_analysis.qmd)
 
--   结果呈现
+-   [结果呈现](p7_results.qmd)
 
--   讨论结论
+-   经典文献阅读(TBD)
 
--   [DAG概论](p3_DAG.qmd)
+
 
 ## 课程材料
+
+-   [DAG概论](aux1_DAG.qmd)
+
+-   [控制变量](aux2_controls.qmd)
+
+-   [自然实验](aux3_natural_experiment.qmd)
 
 -   [R 自学路线图](R_self_learning.qmd)
 

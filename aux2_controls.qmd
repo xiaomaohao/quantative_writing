@@ -1,0 +1,630 @@
+---
+title: "what to control"
+format: revealjs
+execute: 
+  warning: false
+  message: false
+---
+
+## model1 graph
+
+```{r}
+library(dagitty)
+library(ggdag)
+library(ggplot2)
+library(modelsummary)
+theme_set(theme_dag())
+model <- dagitty("dag{x->y; z->x;z->y}")
+coordinates(model) <- list(
+  x = c( x=1, y = 3, z=2),
+  y = c(x = 1, y =1, z=2)
+)
+ggdag(model)
+```
+
+## model1 simulation
+
+```{r}
+n <- 1e4
+z <- rnorm(n)
+x <- z + rnorm(n)
+y <- x + z + rnorm(n)
+m1_unad <- lm(y ~x)
+m1_ad <- lm(y ~ x + z)
+
+modelsummary(list(m1_unad, m1_ad))
+```
+
+## model2 graph
+
+```{r}
+
+model <- dagitty("dag{x->y;u->z; z->x;u->y}")
+latents(model) <- "u"
+coordinates(model) <- list(
+  x = c( x=1, y = 4, z=2,u=3),
+  y = c(x = 1, y =1, z=2, u=3)
+)
+ggdag(model)
+```
+
+## model2 simulation
+
+```{r}
+n <- 1e4
+u <- rnorm(n)
+z <- u + rnorm(n)
+x <- z + rnorm(n)
+y <- x + u + rnorm(n)
+m2_unad <- lm(y ~x)
+m2_ad <- lm(y ~ x + z)
+
+modelsummary(list(m2_unad, m2_ad))
+```
+
+## model3 graph
+
+```{r}
+
+model <- dagitty("dag{x->y;u->z; z->y;u->x}")
+latents(model) <- "u"
+coordinates(model) <- list(
+  x = c( x=1, y = 4, z=3,u=2),
+  y = c(x = 1, y =1, z=2, u=3)
+)
+ggdag(model)
+```
+
+## model3 simulation
+
+```{r}
+n <- 1e4
+u <- rnorm(n)
+z <- u + rnorm(n)
+x <- u + rnorm(n)
+y <- x + z + rnorm(n)
+m3_unad <- lm(y ~x)
+m3_ad <- lm(y ~ x + z)
+
+modelsummary(list(m3_unad, m3_ad))
+```
+
+## model4 graph
+
+```{r}
+
+model <- dagitty("dag{x->m;z->x; z->m;m->y}")
+coordinates(model) <- list(
+  x = c( x=1, z = 2, m=3,y=4),
+  y = c(x = 1, z =2, m=1, y=1)
+)
+ggdag(model)
+```
+
+## model4 simulation
+
+```{r}
+n <- 1e4
+z <- rnorm(n)
+x <- z + rnorm(n)
+m <- x + z + rnorm(n)
+y <- m + rnorm(n)
+m4_unad <- lm(y ~x)
+m4_ad <- lm(y ~ x + z)
+
+modelsummary(list(m4_unad, m4_ad))
+```
+
+## model5 graph
+
+```{r}
+
+model <- dagitty("dag{x->m;u->z;z->x; u->m;m->y}")
+latents(model) <- "u"
+coordinates(model) <- list(
+  x = c( x=1, z = 2,u=3, m=4,y=5),
+  y = c(x = 1, z =2,u=3, m=1, y=1)
+)
+ggdag(model)
+```
+
+## model5 simulation
+
+```{r}
+n <- 1e4
+u <- rnorm(n)
+z <- u + rnorm(n)
+x <- z + rnorm(n)
+m <- x + u + rnorm(n)
+y <- m + rnorm(n)
+m5_unad <- lm(y ~x)
+m5_ad <- lm(y ~ x + z)
+
+modelsummary(list(m5_unad, m5_ad))
+```
+
+## model6 graph
+
+```{r}
+
+model <- dagitty("dag{x->m;u->z;z->m; u->x;m->y}")
+latents(model) <- "u"
+coordinates(model) <- list(
+  x = c( x=1, z = 3,u=2, m=4,y=5),
+  y = c(x = 1, z =2,u=3, m=1, y=1)
+)
+ggdag(model)
+```
+
+## model6 simulation
+
+```{r}
+n <- 1e4
+u <- rnorm(n)
+z <- u + rnorm(n)
+x <- u + rnorm(n)
+m <- x + z + rnorm(n)
+y <- m + rnorm(n)
+m6_unad <- lm(y ~x)
+m6_ad <- lm(y ~ x + z)
+
+modelsummary(list(m6_unad, m6_ad))
+```
+
+## model7 graph
+
+```{r}
+model <- dagitty("dag{x->y; u1->x; u1->z; u2->z; u2->y}")
+
+# set u as latent
+latents(model) <- c("u1", "u2")
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, u1=1, z=2, u2=3, y=3),
+  y = c(x=1, u1=2, z=2, u2=2, y=1))
+
+## ggplot
+ggdag(model) 
+```
+
+## mdoel7 simulation
+
+```{r}
+n <- 1e4
+u1 <- rnorm(n)
+u2 <- rnorm(n)
+z <- u1 + u2 + rnorm(n)
+x <- u1 + rnorm(n)
+y <- x - 4*u2 + rnorm(n)
+
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+```
+
+## model8 graph
+
+```{r}
+model <- dagitty("dag{x->y; z->y}")
+coordinates(model) <- list(
+  x = c(x = 1, z= 2, y =2),
+  y = c(x = 1, z =2, y =1)
+)
+ggdag(model)
+```
+
+## model8 simulation
+
+```{r}
+sim_fun <- function(){
+  n <- 1e4
+  z <- rnorm(n)
+  x <- rnorm(n)
+  y <- x + 2*z + rnorm(n)
+  
+  m1 <- lm(y ~ x)
+  m2 <- lm(y ~ x + z)
+  
+  c1 <- coef(m1)["x"]
+  c2 <- coef(m2)["x"]
+  out <- c("unadjusted" = c1, "adjusted" =c2)
+  return(out)
+}
+
+sims <- replicate(1000, sim_fun())
+apply(sims, 1, mean)
+```
+
+## model9 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; z->x}")
+
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=1, y=2),
+  y = c(x=1, z=2, y=1))
+
+## ggplot
+ggdag(model)
+```
+
+## model 9 simulation
+
+```{r}
+# function for simulation
+sim_fun <- function(){
+    # sim data
+    n <- 1e4
+    z <- rnorm(n)
+    x <- 2*z + rnorm(n)
+    y <- x + 2*rnorm(n)
+    
+    # fit models
+    m1 <- lm(y ~ x)
+    m2 <- lm(y ~ x + z)
+    
+    # extracts coefficients
+    c1 <- coef(m1)["x"]
+    c2 <- coef(m2)["x"]
+    
+    # returns
+    out <- c("unadjusted" = c1, "adjusted" = c2)
+    return(out)
+}
+sims <- replicate(1000, sim_fun())
+apply(sims, 1, mean)
+```
+
+## model10 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; u->x; u->y; z->x}")
+
+# set u as latent
+latents(model) <- c("u")
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(z=1, x=2, u=3, y=4),
+  y = c(z=1, x=1, u=2, y=1))
+
+## ggplot
+ggdag(model)
+```
+
+## model10 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+z <- rnorm(n)
+u <- rnorm(n)
+x <- 2*z + u + rnorm(n)
+y <- x + 2*u + rnorm(n)
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+```
+
+## model11 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->z; z->y}")
+
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, y=3),
+  y = c(x=1, z=1, y=1))
+
+## ggplot
+ggdag(model)
+```
+
+## model11 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+z <- x + rnorm(n)
+y <- z + rnorm(n)
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+
+```
+
+## model12 graph
+
+```{r}
+
+## specify edges
+model <- dagitty("dag{x->m; m->z; m->y}")
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, m=2, z=2, y=3),
+  y = c(x=2, m=2, z=1, y=2))
+## ggplot
+ggdag(model)
+```
+
+## model12 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+m <- x + rnorm(n)
+z <- m + rnorm(n)
+y <- m + rnorm(n)
+
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+```
+
+## variation of model11
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->z; z->y; u->z; u->y}")
+
+# set u as latent
+latents(model) <- "u"
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, u=3, y=4),
+  y = c(x=1, z=1, u=2, y=1))
+
+## ggplot
+ggdag(model)
+```
+
+## variation of model11 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+u <- rnorm(n)
+z <- x + u + rnorm(n)
+y <- z + u + rnorm(n)
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+```
+
+## model13 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; x->m; z->m; m->y}")
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, m=2, y=3),
+  y = c(x=1, z=2, m=1, y=1))
+
+## ggplot
+ggdag(model)
+```
+
+## model13 simulation
+
+```{r}
+# function for simulation
+sim_fun <- function(){
+    # sim data
+    n <- 1e4
+    z <- rnorm(n)
+    x <- rnorm(n)
+    m <- 2*z + rnorm(n)
+    y <- x + 2*m + rnorm(n)
+    
+    # fit models
+    m1 <- lm(y ~ x)
+    m2 <- lm(y ~ x + z)
+    
+    # extracts coefficients
+    c1 <- coef(m1)["x"]
+    c2 <- coef(m2)["x"]
+    
+    # returns
+    out <- c("unadjusted" = c1, "adjusted" = c2)
+    return(out)
+}
+sims <- replicate(1000, sim_fun())
+apply(sims, 1, mean)
+```
+
+## model14 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; x->z}")
+
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=1, y=2),
+  y = c(x=2, z=1, y=2))
+
+## ggplot
+ggdag(model) + theme_dag()
+```
+
+## model14 simulation
+
+```{r}
+# function for simulation
+sim_fun <- function(){
+    # sim data
+    n <- 1e4
+    x <- rnorm(n)
+    z <- 2*x + rnorm(n)
+    y <- x + 2*rnorm(n)
+    
+    # fit models
+    m1 <- lm(y ~ x)
+    m2 <- lm(y ~ x + z)
+    
+    # extracts coefficients
+    c1 <- coef(m1)["x"]
+    c2 <- coef(m2)["x"]
+    
+    # returns
+    out <- c("unadjusted" = c1, "adjusted" = c2)
+    return(out)
+}
+sims <- replicate(1000, sim_fun())
+apply(sims, 1, mean)
+```
+
+## model15 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; x->z; z->w; u->w;u->y}")
+
+# set u as latent
+latents(model) <- "u"
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, w=3, u=3, y=5),
+  y = c(x=3, z=2, w=1, u=4, y=3))
+
+## ggplot
+ggdag(model)
+```
+
+## model15 simulation
+
+```{r}
+n <- 1e4
+x <- rnorm(n)
+u <- rnorm(n)
+z <- x + rnorm(n)
+w <- z + u + rnorm(n)
+y <- x -2*u + rnorm(n)
+m1 <- lm(y ~ x+ w)
+m2 <- lm(y~ x+z+w)
+m3 <- lm(y ~ x)
+modelsummary(list(m1, m2, m3))
+```
+
+## model16 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; x->z; u->z;u->y}")
+
+# set u as latent
+latents(model) <- "u"
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, u=2, y=3),
+  y = c(x=3, z=2, u=4, y=3))
+
+## ggplot
+ggdag(model)
+```
+
+## model16 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+u <- rnorm(n)
+z <- x + u +  rnorm(n)
+y <- x + 2*u + rnorm(n)
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+
+```
+
+## model17 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; x->z; y->z}")
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, y=3),
+  y = c(x=2, z=1, y=2))
+
+## ggplot
+ggdag(model) 
+```
+
+## model17 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+y <- x + rnorm(n)
+z <- x + y + rnorm(n)
+
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+
+```
+
+## model18 graph
+
+```{r}
+## specify edges
+model <- dagitty("dag{x->y; y->z}")
+
+## coordinates for plotting
+coordinates(model) <-  list(
+  x = c(x=1, z=2, y=3),
+  y = c(x=2, z=1, y=2))
+
+## ggplot
+ggdag(model)
+```
+
+## model18 simulation
+
+```{r}
+# simulate data (linear model)
+n <- 1e4
+x <- rnorm(n)
+y <- x + rnorm(n)
+z <- y + rnorm(n)
+m_unad <- lm(y ~ x)
+m_ad <- lm(y ~ x + z)
+modelsummary(list(m_unad, m_ad))
+```
+
+::: .notes
+This notebook contains R code with numerical simulations for all the examples discussed in:
+
+*Cinelli et al (2020). **A Crash Course in Good and Bad Controls**. Available at SSRN: <https://ssrn.com/abstract=3689437>*
+:::
+
+## summary
+
+<div>
+
+```{r}
+library(knitr)
+include_graphics("objects/control.png")
+```
+
+</div>

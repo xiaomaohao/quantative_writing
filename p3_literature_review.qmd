@@ -1,0 +1,94 @@
+---
+title: "文献检索、管理与综述写作"
+format:
+  revealjs:
+    incremental: true   
+    footer: "seeking truths through randomness"
+---
+
+## 文献综述的目的
+
+-   寻找研究盲区（GAP）
+-   提供理论框架的线索
+-   提供研究方法的借鉴
+
+## 文献综述写作过程
+
+-   检索
+-   下载
+-   管理
+-   引用
+
+## 文献检索（中文）
+
+-   **形式**：图书、期刊论文、新闻报道、报告、统计年鉴、硕博论文等。
+-   **来源**：
+-   中国知网（全文献检索，全库或核心库检索）
+-   图书馆书目索引
+-   当当、京东等商业图书网站
+-   网络（百度贴吧，知乎问答等）
+
+## 英文文献来源
+
+-   [EBSCO--Academic Search Premier](http://search.ebscohost.com/)
+-   [Elsevier ScienceDirect 数据库](http://www.sciencedirect.com/)
+-   [JSTOR](http://www.jstor.org/)
+-   [Kluwer Online Journals](http://kluwer.calis.edu.cn/)
+-   [Lexis Advance法律数据库](http://advance.lexis.com/?identityprofileid=DVMM4852755)
+-   [ProQuest博硕士论文全文数据库](http://proquest.calis.edu.cn/)
+-   [Springer电子期刊数据库](http://www.springerlink.com/)
+-   [Wiley-Blackwell电子期刊数据库](http://onlinelibrary.wiley.com/)
+
+## 检索引擎
+
+-   [Google scholar](https://scholar.google.com/)
+-   [Sci-Hub](https://scihub.wikicn.top/)
+-   [Web of Science--SSCI](http://www.webofknowledge.com/)
+-   [RUC图书馆](http://www.lib.ruc.edu.cn/)
+
+## 文献检索标准与方法
+
+-   **标准**
+-   全，检索源要广，不同文献源，不同语种，不同检索词，
+-   准，检索要确定与拟研究主题相关，
+-   优，优先在优质的库中选择，比如好的期刊、好学校，著名学者。
+-   **方法**
+-   关键词
+-   迭代索引
+
+## 文献整理
+
+-   文献管理软件（endnote, **Mendeley**, Reference Manager, Zotero，Papers)
+-   中文文献（noteexpress，**E-study**)
+
+## 假如文献太少怎么办？
+
+-   检索用词不准确
+-   研究问题没有价值
+-   研究还没有条件
+-   你中奖了
+
+## 假如文献太多怎么办？
+
+-   去伪存真
+-   去粗存精
+-   略读到精读
+
+## 别人已经做过了，怎么办？
+
+-   测量方法准确么？
+
+-   结论统一么？
+
+-   是因果关系么？
+
+-   结论是否有异质性？
+
+-   结果产生的机制是什么？
+
+## 文献综述写作
+
+-   归类
+-   内化
+-   主题引导式VS作者引导式
+-   点评

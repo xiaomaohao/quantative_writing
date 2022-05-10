@@ -1,0 +1,62 @@
+---
+title: "自然实验"
+format: revealjs
+execute: 
+  warning: false
+  message: false
+---
+
+## experiment
+
+```{r}
+library(ggdag)
+library(ggplot2)
+library(tidyverse)
+theme_set(theme_dag())
+coords <- list(
+    x = c(z = 1, x = 2, y = 3, u = 2.5),
+    y = c(z = 0, x = 0, y = 0, u = 3)
+    )
+dagify(y ~ x +u,
+       x~z+u,
+       coords = coords
+       ) %>% 
+  ggdag() 
+
+```
+
+## matching
+
+## instrumental variable
+
+```{r}
+
+coords <- list(
+    x = c(z = 1, x = 2, y = 3, u = 2.5),
+    y = c(z = 0, x = 0, y = 0, u = 3)
+    )
+dagify(y ~ x +u,
+       x~z,
+       coords = coords
+       ) %>% 
+  ggdag() 
+```
+
+## front-door criterion
+
+```{r}
+coords <- list(
+    x = c(x = 1, m = 2, y = 3, u = 2),
+    y = c(x = 0, m = 0, y = 0, u = 3)
+    )
+dagify(y ~ m +u,
+       x~u,
+       m ~ x,
+       coords = coords
+       ) %>% 
+  ggdag() 
+```
+
+## regression discontinuity
+
+## difference in difference

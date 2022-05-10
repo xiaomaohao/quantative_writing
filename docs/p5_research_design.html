@@ -2,7 +2,8 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.228">
-  <title>quantative_writing - research_design</title>
+  <meta name="author" content="Yangyong Ye">
+  <title>quantative_writing - Research Design</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -320,7 +321,9 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">research_design</h1>
+  <h1 class="title">Research Design</h1>
+  <p class="author">Yangyong Ye</p>
+  <p class="date">2022/05/10</p>
 </section>
 
 <section id="确定研究类型" class="slide level2">
@@ -334,13 +337,13 @@
 <section id="描述性研究设计" class="slide level2">
 <h2>描述性研究设计</h2>
 <ul>
-<li>关注对象</li>
+<li>新颖的对象</li>
 <li>测量方法</li>
 <li>分群方法</li>
 </ul>
 </section>
-<section id="相关性研究一" class="slide level2">
-<h2>相关性研究一</h2>
+<section id="简单相关性研究" class="slide level2">
+<h2>简单相关性研究</h2>
 <ul>
 <li>T检验</li>
 <li>ANOVA</li>
@@ -348,8 +351,8 @@
 <li>相关系数</li>
 </ul>
 </section>
-<section id="相关性研究二" class="slide level2">
-<h2>相关性研究二</h2>
+<section id="复杂相关性研究" class="slide level2">
+<h2>复杂相关性研究</h2>
 <ul>
 <li>虚拟变量</li>
 <li>顺序变量</li>
@@ -359,8 +362,8 @@
 <li>事件变量</li>
 </ul>
 </section>
-<section id="相关性研究二-1" class="slide level2">
-<h2>相关性研究二</h2>
+<section id="复杂相关性研究regression" class="slide level2">
+<h2>复杂相关性研究（regression)</h2>
 <ul>
 <li><p>Simple regression</p></li>
 <li><p>Logistic regression</p></li>
@@ -368,15 +371,6 @@
 <li><p>Multinomial logistic regression</p></li>
 <li><p>Count regression</p></li>
 <li><p>Survival</p></li>
-</ul>
-</section>
-<section id="因果研究的四个步骤from-mostly-harmless" class="slide level2">
-<h2>因果研究的四个步骤(from “mostly harmless”)</h2>
-<ul>
-<li><p>研究什么关系(relationship)</p></li>
-<li><p>确定该关系的实验方法是怎样的(experiment design)</p></li>
-<li><p>确定识别策略(identification strategy)</p></li>
-<li><p>确定统计推断方法(inference)</p></li>
 </ul>
 </section>
 <section id="因果分析方法" class="slide level2">
@@ -389,8 +383,56 @@
 <li>IV</li>
 <li>FDC</li>
 </ul>
+</section>
+<section id="因果研究的四个步骤mostly-harmless" class="slide level2">
+<h2>因果研究的四个步骤(“mostly harmless”)</h2>
+<ul>
+<li><p>研究什么关系(relationship)</p></li>
+<li><p>确定该关系的实验方法是怎样的(experiment design)</p></li>
+<li><p>确定识别策略(identification strategy)</p></li>
+<li><p>确定统计推断方法(inference)</p></li>
+</ul>
+</section>
+<section id="从理论到方法" class="slide level2">
+<h2>从理论到方法</h2>
+<ul>
+<li><p>确定假设</p></li>
+<li><p>假想实验</p></li>
+<li><p>自然实验</p></li>
+<li><p>控制变量选择</p></li>
+</ul>
+</section>
+<section id="为什么要做假想实验" class="slide level2">
+<h2>为什么要做假想实验？</h2>
+<ul>
+<li><p>sufficiently well-defined intervention</p></li>
+<li><p>feasible intervention, manipulative</p></li>
+<li><p>attributes or causes?</p></li>
+</ul>
+<p>做假想实验，可以明确treatment的具体所指，是否有不同版本，是否是可界定的。现实中有些干预效应是没有准确界定的。 比如干预是寄宿与否，那么寄宿的时长，寄宿的条件可能都有所不同。</p>
+<p>这种干预措施的不明确，或者存在的变化，一方面可能效果估计的偏差，另一方面也可以解释为什么存在效果估计的异质性。</p>
+</section>
+<section id="自然实验如何寻找" class="slide level2">
+<h2>自然实验如何寻找？</h2>
+<ul>
+<li><p>randomness</p></li>
+<li><p>intervention</p></li>
+</ul>
+</section>
+<section id="控制变量如何选择" class="slide level2">
+<h2>控制变量如何选择？</h2>
+<ul>
+<li><p>pretreatment variable</p></li>
+<li><p>posttreatment variable</p></li>
+<li><p>confounder</p></li>
+<li><p>collider</p></li>
+</ul>
+</section>
+<section id="控制变量如何选择-1" class="slide level2">
+<h2>控制变量如何选择？</h2>
 
-<div class="footer footer-default">
+
+<img data-src="objects/control.png" width="628" class="r-stretch"><div class="footer footer-default">
 
 </div>
 </section>
@@ -606,6 +648,48 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
